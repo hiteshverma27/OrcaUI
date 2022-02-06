@@ -1,0 +1,16 @@
+/* ************* Define variables for colors and sizes here**************** */
+:root{
+    --s1: 0.8rem;
+	--s2: 1.6rem;
+	--s3: 2.4rem;
+	--s4: 3.2rem;
+	--s5: 4rem;
+	--s6: 4.8rem;
+	--s7: 5.6rem;
+	--s8: 6.4rem;
+    --s9: 7.2rem;
+	--s10: 8rem;
+
+/* ****************** Colors for UI ********************** */
+	--primary-color: #0D0C1D;
+}

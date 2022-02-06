@@ -1,0 +1,94 @@
+/* Basic styles, fonts and media queries for Orca UI */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.main-wrapper {
+    display: grid;
+    grid-template-areas:
+      "h h h h h"
+      "d c c c c"
+      "d c c c c"
+      "d fn fn fn fn"
+      "d f f f f";
+  }
+.logo{
+    width: 10vh;
+    height: 10vh;
+}
+.header {
+    position: sticky;
+    top: 0;
+    grid-area: h;
+    height: 10vh;
+    background-color: var(--primary-color);
+  }
+.sidebar {
+    grid-area: d;
+    overflow: auto;
+    height: 90vh;
+    position: sticky;
+    top: 10vh;
+    width: 25rem;
+    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.75);
+    font-size: 1.6rem;
+    /* background-color: cornflowerblue; */
+  }
+.footer{
+    grid-area: f;
+    background-color: coral;
+    height: 10vh;
+}
+.footer-navigation{
+    grid-area: fn;
+    height: 5vh;
+    background-color: darkcyan;
+}
+.main-content {
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    grid-area: c;
+}
+.sidebar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.2rem;
+    margin: 1.6rem;
+    border-radius: 5px;
+}
+.sidebar-item:hover {
+    background-color: rgba(211, 211, 211, 0.404);
+    cursor: pointer;
+  }
+.list-item-active {
+    background-color: lightgray;
+    /* color: black; */
+}
+.sidebar-heading{
+    text-align: center;
+    margin-left: -1.6rem;
+    padding: 1.6rem 0rem 1rem 0rem;
+}
+ul{
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    /* margin-left: 2rem; */
+}
+.snippet{
+    width: 100%;
+    background-color: lightgrey;
+    height: 30vh;
+    border-radius: 4px;
+}

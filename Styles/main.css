@@ -1,0 +1,8 @@
+/* Import every component here and use it in every html */
+@import "/Utilities/reset.css";
+@import "/Utilities/variables.css";
+@import "/Utilities/utils.css";
+@import "/Utilities/typography.css";
+@import "/Styles/avatar.css";
+@import "/Styles/alerts.css";
+@import "/Styles/badge.css";
