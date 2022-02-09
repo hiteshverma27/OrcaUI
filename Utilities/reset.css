@@ -2,7 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	scroll-behavior: smooth;
+	word-spacing: 1px;
+	line-height: var(--s3);
 }
 
 html {
@@ -28,7 +29,7 @@ textarea {
 /* headings */
 h1 {
 	font-size: var(--s6);
-	line-height: 6.4rem;
+	/* line-height: 6.4rem; */
 }
 
 h2 {
@@ -73,7 +74,6 @@ ul {
 a,
 p,
 label,
-span,
 button,
 article {
 	font-size: 1.6rem;

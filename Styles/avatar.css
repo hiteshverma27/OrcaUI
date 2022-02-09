@@ -1,0 +1,40 @@
+.avatar{
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .avatar-size-1{
+    width: var(--s2);
+    height: var(--s2);
+    font-size: var(--s1);
+} */
+.avatar-size-1{
+    width: var(--s4);
+    height: var(--s4);
+    font-size: var(--s2);
+}
+.avatar-size-2{
+    width: var(--s8);
+    height: var(--s8);
+    font-size: var(--s3);
+}
+.avatar-size-3{
+    width: var(--s12);
+    height: var(--s12);
+    font-size: var(--s4);
+}
+.avatar-size-4{
+    width: var(--s16);
+    height: var(--s16);
+    font-size: var(--s5);
+}
+.avatar-square-sm{
+    border-radius: 5px;
+}
+.avatar-square-md{
+    border-radius: 10px;
+}
+.avatar-square-lg{
+    border-radius: 15px;
+}

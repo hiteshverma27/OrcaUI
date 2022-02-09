@@ -1,4 +1,77 @@
-.my-2{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.bg-accent{
+    background-color: var(--accent-color);
+    color: white;
 }
+.bold{
+    font-weight: bolder;
+}
+.text-color-accent{
+    color: var(--accent-color);
+}
+.color-fill-black{
+    fill: black;
+}
+/* ********* Position classes ********** */
+
+.fixed{
+    position: fixed;
+}
+.relative{
+    position: relative;
+}
+.sticky{
+    position: sticky;
+}
+.absolute{
+    position: absolute;
+}
+
+/* ********* Display classes ********** */
+
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.block{
+    display: block;
+}
+/* ********* Flex classes example - flex-(x-axis positioning)-(y-axis positioning) ********** */
+
+.flex-center-center{
+    display: flex;
+    justify-content: center; /* X axis*/
+    align-items: center; /* Y axis*/
+}
+.flex-space_between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+/* ********* Material Icon size s1=1rem=10px ********** */
+
+.material-icons.icon-s1 { font-size: var(--s1); }
+.material-icons.icon-s2 { font-size: var(--s2); }
+.material-icons.icon-s3 { font-size: var(--s3); }
+.material-icons.icon-s4 { font-size: var(--s4); }
+.material-icons.icon-sm { font-size: var(--s4); }           /*Standard small icon s4 = 40px*/
+.material-icons.icon-s5 { font-size: var(--s5); }
+.material-icons.icon-s6 { font-size: var(--s6); }
+.material-icons.icon-s7 { font-size: var(--s7); }
+.material-icons.icon-s8 { font-size: var(--s8); }
+.material-icons.icon-md { font-size: var(--s8); }           /*Standard medium icon s8 = 64px*/
+.material-icons.icon-s9 { font-size: var(--s9); }           
+.material-icons.icon-s10 { font-size: var(--s10); }
+.material-icons.icon-s11 { font-size: var(--s11); }
+.material-icons.icon-s12 { font-size: var(--s12); }
+.material-icons.icon-lg { font-size: var(--s12); }          /*Standard large icon s12 = 96px*/
+.material-icons.icon-s13 { font-size: var(--s13); }
+.material-icons.icon-s14 { font-size: var(--s14); }
+.material-icons.icon-s15 { font-size: var(--s15); }
+.material-icons.icon-s16 { font-size: var(--s16); }
+
