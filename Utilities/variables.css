@@ -1,0 +1,29 @@
+/* ************* Define variables for colors and sizes here**************** */
+:root{
+
+/* *************** Standard sizes 1rem = 10px ******************* */
+    --s0: 0rem;
+    --s1: 0.8rem;
+	--s2: 1.6rem;
+	--s3: 2.4rem;
+	--s4: 3.2rem;
+	--s5: 4rem;
+	--s6: 4.8rem;
+	--s7: 5.6rem;
+	--s8: 6.4rem;
+    --s9: 7.2rem;
+	--s10: 8rem;
+	--s11: 8.8rem;
+	--s12: 9.6rem;
+	--s13: 10.4rem;
+	--s14: 11.2rem;
+	--s15: 12rem;
+	--s16: 12.8rem;
+
+/* ****************** Colors for UI ********************** */
+	--primary-color: #0D0C1D;
+	--accent-color: #00B2CA; /*00B2CA*/
+	--white: #f5f5f5;
+	--example-box-color: #e4e0e0;
+	--lightgray: #d3d3d3ab;
+}
