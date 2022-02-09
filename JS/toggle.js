@@ -6,3 +6,11 @@ document.querySelector(".menu-icon").addEventListener("click", ()=>{
         sidebar.style.display = "none";
       }
 })
+const floatingActionBtn = document.querySelector(".floating-button");
+document.querySelector(".show-floating-btn").addEventListener("click", ()=>{
+  if (floatingActionBtn.style.display === "none") {
+    floatingActionBtn.style.display = "block";
+  } else {
+    floatingActionBtn.style.display = "none";
+  }
+})

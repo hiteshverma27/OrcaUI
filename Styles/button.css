@@ -1,0 +1,101 @@
+.btn-primary-danger{
+    background-color: var(--btn-color-danger);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-primary-confirm{
+    background-color: var(--btn-color-confirm);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-primary-danger:hover{
+    background-color: var(--btn-color-danger-hover);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-primary-confirm:hover{
+    background-color: var(--btn-color-confirm-hover);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-secondary-danger{
+    background-color: white;
+    border: 1px solid var(--btn-color-danger);
+    color: var(--btn-color-danger);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-secondary-confirm{
+    background-color: white;
+    color: var(--btn-color-confirm);
+    border: 1px solid var(--btn-color-confirm);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-secondary-danger:hover{
+    background-color: white;
+    color: var(--btn-color-danger-hover);
+    border: 1px solid var(--btn-color-danger-hover);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-secondary-confirm:hover{
+    background-color: white;
+    color: var(--btn-color-confirm-hover);
+    border: 1px solid ;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-tertiary-danger{
+    color: var(--btn-color-danger);
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-tertiary-confirm{
+    color: var(--btn-color-confirm);
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-tertiary-danger:hover{
+    color: var(--btn-color-danger-hover);
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-tertiary-confirm:hover{
+    color: var(--btn-color-confirm-hover);
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.btn-floating{
+    padding: 2rem;
+    border-radius: 50%;
+    position: fixed;
+    right: 10vh;
+    bottom: 10vh;
+    z-index: 100;
+}
+.btn-floating:hover{
+    background-color: var(--btn-color-danger-hover);
+    padding: 2rem;
+    border-radius: 50%;
+}

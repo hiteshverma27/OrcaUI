@@ -222,6 +222,39 @@
     margin-top: var(--s10);
 }
 
+/* ********** Left margins ********** */
+
+.ml-1{
+    margin-left: var(--s1);
+}
+.ml-2{
+    margin-left: var(--s2);
+}
+.ml-3{
+    margin-left: var(--s3);
+}
+.ml-4{
+    margin-left: var(--s4);
+}
+.ml-5{
+    margin-left: var(--s5);
+}
+.ml-6{
+    margin-left: var(--s6);
+}
+.ml-7{
+    margin-left: var(--s7);
+}
+.ml-8{
+    margin-left: var(--s8);
+}
+.ml-9{
+    margin-left: var(--s9);
+}
+.ml-10{
+    margin-left: var(--s10);
+}
+
 /* ********** Auto margins ********** */
 
 .m-auto{
