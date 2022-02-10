@@ -1,73 +1,68 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	word-spacing: 1px;
-	line-height: var(--s3);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-spacing: 1px;
+  line-height: var(--s3);
 }
 
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 a {
-	text-decoration: none;
-	color: inherit;
-	cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 button {
-	border: none;
-	background: none;
-	cursor: pointer;
-}
-
-input,
-textarea {
-	border: none;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 /* headings */
 h1 {
-	font-size: var(--s6);
-	/* line-height: 6.4rem; */
+  font-size: var(--s6);
+  /* line-height: 6.4rem; */
 }
 
 h2 {
-	font-size: 3.2rem;
-	line-height: 4rem;
+  font-size: 3.2rem;
+  line-height: 4rem;
 }
 
 h3 {
-	font-size: 2.4rem;
-	line-height: 3.2rem;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
 }
 
 h4 {
-	font-size: 1.8rem;
-	line-height: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
 }
 
 h5 {
-	font-size: 1rem;
-	line-height: 1.6rem;
+  font-size: 1rem;
+  line-height: 1.6rem;
 }
 
 h6 {
-	font-size: 0.8rem;
-	line-height: 1.2rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
 }
 
 /* media */
 img,
 iframe,
 video {
-	max-inline-size: 100%;
-	/* block-size: auto; */
+  max-inline-size: 100%;
+  /* block-size: auto; */
 }
 
 /* list */
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 /* text */
@@ -76,5 +71,5 @@ p,
 label,
 button,
 article {
-	font-size: 1.6rem;
+  font-size: 1.6rem;
 }

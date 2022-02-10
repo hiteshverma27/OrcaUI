@@ -40,23 +40,79 @@
 
 /* ********* Badge image size s1=1rem=10px ********** */
 
-.badge-img.img-s1 { height: var(--s1); width: var(--s1); }
-.badge-img.img-s2 { height: var(--s2); width: var(--s2); }
-.badge-img.img-s3 { height: var(--s3); width: var(--s3); }
-.badge-img.img-s4 { height: var(--s4); width: var(--s4); }
-.badge-img.img-sm { height: var(--s4); width: var(--s4); }           /*Standard small image s4 = 40px*/
-.badge-img.img-s5 { height: var(--s5); width: var(--s5); }
-.badge-img.img-s6 { height: var(--s6); width: var(--s6); }
-.badge-img.img-s7 { height: var(--s7); width: var(--s7); }
-.badge-img.img-s8 { height: var(--s8); width: var(--s8); }
-.badge-img.img-md { height: var(--s8); width: var(--s8); }           /*Standard medium image s8 = 64px*/
-.badge-img.img-s9 { height: var(--s9); width: var(--s9); }           
-.badge-img.img-s10 { height: var(--s10); width: var(--s10);}
-.badge-img.img-s11 { height: var(--s11); width: var(--s11);}
-.badge-img.img-s12 { height: var(--s12); width: var(--s12);}
-.badge-img.img-lg  { height: var(--s12); width: var(--s12);}          /*Standard large image s12 = 96px*/
-.badge-img.img-s13 { height: var(--s13); width: var(--s13);}
-.badge-img.img-s14 { height: var(--s14); width: var(--s14);}
-.badge-img.img-s15 { height: var(--s15); width: var(--s15);}
-.badge-img.img-s16 { height: var(--s16); width: var(--s16);}
-
+.badge-img.img-s1 {
+  height: var(--s1);
+  width: var(--s1);
+}
+.badge-img.img-s2 {
+  height: var(--s2);
+  width: var(--s2);
+}
+.badge-img.img-s3 {
+  height: var(--s3);
+  width: var(--s3);
+}
+.badge-img.img-s4 {
+  height: var(--s4);
+  width: var(--s4);
+}
+.badge-img.img-sm {
+  height: var(--s4);
+  width: var(--s4);
+} /*Standard small image s4 = 40px*/
+.badge-img.img-s5 {
+  height: var(--s5);
+  width: var(--s5);
+}
+.badge-img.img-s6 {
+  height: var(--s6);
+  width: var(--s6);
+}
+.badge-img.img-s7 {
+  height: var(--s7);
+  width: var(--s7);
+}
+.badge-img.img-s8 {
+  height: var(--s8);
+  width: var(--s8);
+}
+.badge-img.img-md {
+  height: var(--s8);
+  width: var(--s8);
+} /*Standard medium image s8 = 64px*/
+.badge-img.img-s9 {
+  height: var(--s9);
+  width: var(--s9);
+}
+.badge-img.img-s10 {
+  height: var(--s10);
+  width: var(--s10);
+}
+.badge-img.img-s11 {
+  height: var(--s11);
+  width: var(--s11);
+}
+.badge-img.img-s12 {
+  height: var(--s12);
+  width: var(--s12);
+}
+.badge-img.img-lg {
+  height: var(--s12);
+  width: var(--s12);
+} /*Standard large image s12 = 96px*/
+.badge-img.img-s13 {
+  height: var(--s13);
+  width: var(--s13);
+}
+.badge-img.img-s14 {
+  height: var(--s14);
+  width: var(--s14);
+}
+.badge-img.img-s15 {
+  height: var(--s15);
+  width: var(--s15);
+}
+.badge-img.img-s16 {
+  height: var(--s16);
+  width: var(--s16);
+}

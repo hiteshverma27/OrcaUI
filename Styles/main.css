@@ -5,6 +5,8 @@
 @import "/Styles/badge.css";
 @import "/Styles/alert.css";
 @import "/Styles/button.css";
+@import "/Styles/input.css";
+@import "/Styles/image.css";
 
 /* **** Utilities **** */
 @import "/Utilities/typography.css";
