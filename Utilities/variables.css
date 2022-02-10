@@ -26,4 +26,24 @@
 	--white: #f5f5f5;
 	--example-box-color: #e4e0e0;
 	--lightgray: #d3d3d3ab;
+
+/* ****************** Alert background colors ********************** */
+	--alert-background-success: #b3f1c3;
+	--alert-background-tip: #d3d3d3d2;
+	--alert-background-warning: #fad79c;
+	--alert-background-danger:#f5ac9f;
+	--alert-background-info:#aad7ff;
+
+/* ****************** Alert font and icon colors ********************** */
+	--alert-fontcolor-success: #008000;
+	--alert-fontcolor-tip: #666666;
+	--alert-fontcolor-warning: #fd7a00;
+	--alert-fontcolor-danger:#ff0000;
+	--alert-fontcolor-info:#002fff;
+
+/* ****************** Btn colors ********************** */
+	--btn-color-danger: #f53100; 
+	--btn-color-confirm: #1F75CB;
+	--btn-color-danger-hover: #c52700;
+	--btn-color-confirm-hover: #1d66af;
 }

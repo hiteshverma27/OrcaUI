@@ -3,7 +3,8 @@
 /* Component stylesheets */
 @import "/Styles/avatar.css";
 @import "/Styles/badge.css";
-@import "/Styles/alerts.css";
+@import "/Styles/alert.css";
+@import "/Styles/button.css";
 
 /* **** Utilities **** */
 @import "/Utilities/typography.css";

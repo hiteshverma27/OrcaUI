@@ -75,3 +75,25 @@
 .material-icons.icon-s15 { font-size: var(--s15); }
 .material-icons.icon-s16 { font-size: var(--s16); }
 
+/* ********* Material Icon size s1=1rem=10px ********** */
+
+.material-icons-outlined.icon-s1 { font-size: var(--s1); }
+.material-icons-outlined.icon-s2 { font-size: var(--s2); }
+.material-icons-outlined.icon-s3 { font-size: var(--s3); }
+.material-icons-outlined.icon-s4 { font-size: var(--s4); }
+.material-icons-outlined.icon-sm { font-size: var(--s4); }           /*Standard small icon s4 = 40px*/
+.material-icons-outlined.icon-s5 { font-size: var(--s5); }
+.material-icons-outlined.icon-s6 { font-size: var(--s6); }
+.material-icons-outlined.icon-s7 { font-size: var(--s7); }
+.material-icons-outlined.icon-s8 { font-size: var(--s8); }
+.material-icons-outlined.icon-md { font-size: var(--s8); }           /*Standard medium icon s8 = 64px*/
+.material-icons-outlined.icon-s9 { font-size: var(--s9); }           
+.material-icons-outlined.icon-s10 { font-size: var(--s10); }
+.material-icons-outlined.icon-s11 { font-size: var(--s11); }
+.material-icons-outlined.icon-s12 { font-size: var(--s12); }
+.material-icons-outlined.icon-lg { font-size: var(--s12); }          /*Standard large icon s12 = 96px*/
+.material-icons-outlined.icon-s13 { font-size: var(--s13); }
+.material-icons-outlined.icon-s14 { font-size: var(--s14); }
+.material-icons-outlined.icon-s15 { font-size: var(--s15); }
+.material-icons-outlined.icon-s16 { font-size: var(--s16); }
+
