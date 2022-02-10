@@ -14,3 +14,4 @@ document.querySelector(".show-floating-btn").addEventListener("click", ()=>{
     floatingActionBtn.style.display = "none";
   }
 })
+

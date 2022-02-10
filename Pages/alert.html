@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Alert | OrcaUI</title>
-        <link rel="stylesheet" href="/Styles/OrcaUI-styles.css">
-        <link rel="stylesheet" href="/Styles/main.css">
-        <meta name="author" content="Hitesh Verma">
-        <meta name="Description" content="A variety of avatar to choose from.">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-            rel="stylesheet">
-        <script src="/JS/toggle.js" defer></script>
-        <link
-            href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-            rel="stylesheet">
-        <link rel="shortcut icon" href="/Assests/logo-rotated.svg"
-            type="image/x-icon">
-    </head>
-    <body>
-        <div class="main-wrapper">
-            <header class="header">
-                <div class="logo-container mx-3">
-                    <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
-                    <a href="/index.html">
 
-                        <svg class="logo" width="242" height="213" viewBox="0 0
-                            242 213" fill="white"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M94.3929 47.9256C94.3025 49.6725 95.4292
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert | OrcaUI</title>
+    <link rel="stylesheet" href="/Styles/OrcaUI-styles.css">
+    <link rel="stylesheet" href="/Styles/main.css">
+    <meta name="author" content="Hitesh Verma">
+    <meta name="Description" content="A variety of avatar to choose from.">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="/JS/toggle.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="shortcut icon" href="/Assests/logo-rotated.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="header">
+            <div class="logo-container mx-3">
+                <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
+                <a href="/index.html">
+
+                    <svg class="logo" width="242" height="213" viewBox="0 0
+                            242 213" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M94.3929 47.9256C94.3025 49.6725 95.4292
                                 51.7916 98.5712 55.7838C103.334 61.9722 103.948
                                 65.0436 101.009 67.3987C100.091 68.2269 96.0985
                                 71.3689 92.1063 74.511C71.3618 91.0906 57.907
@@ -66,135 +63,122 @@
                                 123.799 190.6 125.771C184.726 128.781 178.29
                                 129.032 169.1 126.444C142.25 118.974 138.276
                                 94.2459 163.806 93.6958Z" />
-                            </svg>
-                        </a>
-                        <h2 class="logo-heading"> Orca UI</h2>
-                    </div>
-                    <div class="nav-links mx-5">
-                        <a class="mx-3 nav-link-items py-2 px- font-600"
-                            href="/Pages/installation.html">Installation</a>
-                        <a class="mx-3 nav-link-items py-2 px- font-600"
-                            href="/Pages/avatar.html">Documentation</a>
-                        <a class="mx-3 nav-link-items py-2 px- font-600"
-                            href="https://github.com/hiteshverma27"
-                            target="_blank">Github</a>
-                    </div>
-                </header>
-                <div class="sidebar py-2">
-                    <h3 class="sidebar-heading"><a href="./documentation.html">Get
-                            Started</a></h3>
-                    <ul>
-                        <li>
-                            <a class="sidebar-item" href="#">Introduction</a>
-                            <a class="sidebar-item" href="#">Understand Orca</a>
-                            <a class="sidebar-item" href="#">Colors</a>
-                            <a class="sidebar-item" href="#">Typography</a>
-                        </li>
-                    </ul>
-                    <h3 class="sidebar-heading"><a href="#">Components</a></h3>
-                    <ul>
-                        <li>
-                            <a class="sidebar-item" href="/Pages/avatar.html">Avatar
-                            </a>
-                            <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
-                            <a class="sidebar-item list-item-active"
-                                href="/Pages/alert.html">Alert </a>
-                            <a class="sidebar-item" href="/Pages/button.html">Button</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="main-content">
-                    <h1 class="my-2">Alert</h1>
-                    <hr>
-                    <p>An alert is a system generated, contextual, and timely
-                        message to a user that may or may not result from their
-                        action.An alert is a system generated, contextual, and
-                        timely message to a user that may or may not result from
-                        their action.An alert is a system generated, contextual,
-                        and timely message to a user that may or may not result
-                        from their action.
-                    </p>
-                    <hr>
-                    <h3 class="my-2">How to use</h3>
-                    <p>To use alert just add <code>alert</code>
-                        class to the HTML tag. </p>
-                    <hr>
-                    <h3 class="my-2">Variants</h3>
-                    <ol class="ml-2">
-                        <li><strong>Danger</strong>: Advise the
-                            user that their attention is needed to address or be
-                            aware of a critical issue that relates to the
-                            current context. To apply add <code>alert-danger</code></li> 
-                        <li><strong>Warning</strong>:
-                            Caution the user that their attention or action may
-                            be needed within the current context, but it may not
-                            be critical. To apply add <code>alert-warning</code></li>
-                        <li><strong>Success</strong>:
-                            Reaffirm to the user that a prior action they have
-                            taken, often in a different location within the
-                            application, has been successful. To apply add <code>alert-success</code></li> 
-                        <li><strong>Information</strong>:
-                            Provide supplemental information to the user in
-                            regards to the current context or action they are
-                            about to take. To apply add <code>alert-info</code></li> 
-                        <li><strong>Tip</strong>:
-                            Educate the user about new or unused features, and
-                            other useful information. To apply add <code>alert-tip</code></li></ol>
-                    <hr>
-                    <h3 class="my-2">Examples</h3>
-                    <div class="example-box my-4">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Echeck%253C%252Fspan%253E%2520This%2520is%2520an%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-tip%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Elightbulb%253C%252Fspan%253E%2520This%2520is%2520a%2520tip.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Ewarning%253C%252Fspan%253E%2520This%2520is%2520a%2520warning.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Epriority_high%253C%252Fspan%253EThis%2520is%2520a%2520danger.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Einfo%253C%252Fspan%253E%2520This%2520is%2520an%2520info.%253C%252Fdiv%253E"
-                            style="width: 917px; height: 287px; border:0;
-                            transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
-                    <div class="example-box flex-col my-4">
-                        <div class="alert alert-success my-1"> <span
-                                class="material-icons-outlined icon-s3 mr-1
-                                p-1">check</span> This is a success alert.</div>
-                        <div class="alert alert-tip my-1"> <span
-                                class="material-icons-outlined icon-s3 mr-1
-                                p-1">lightbulb</span> This is a tip alert.</div>
-                        <div class="alert alert-warning my-1"> <span
-                                class="material-icons-outlined icon-s3 mr-1
-                                p-1">warning</span> This is a warning alert.</div>
-                        <div class="alert alert-danger my-1"> <span
-                                class="material-icons-outlined icon-s3 mr-1
-                                p-1">priority_high</span> This is a danger alert.</div>
-                        <div class="alert alert-info my-1"> <span
-                                class="material-icons-outlined icon-s3 mr-1
-                                p-1">info</span> This is an info alert.</div>
-                    </div>
-                    <hr>
-                </div>
-                <div class="footer-navigation flex-space_between-center px-10
-                    my-3">
-                    <button class="flex-center-center p-2 footer-nav-prev"><img
-                            class="footer-nav"
-                            src="/Assests/arrow_back_ios_new_black_24dp.svg"
-                            alt="previous section"><a
-                            href="/Pages/badge.html">Badge</a></button>
-                    <p>Explore more components</p>
-                    <button class="flex-center-center p-2 footer-nav-next"><a
-                            href="/Pages/button.html">Button</a> <img
-                            class="footer-nav"
-                            src="/Assests/arrow_forward_ios_black_24dp.svg"
-                            alt="badge"></button>
-                </div>
-                <footer class="footer flex-center-center flex-col">
-                    <div class="mb-3 mr-2">Made by Hitesh</div>
-                    <div class="socials">
-                        <a href="https://github.com/hiteshverma27"
-                            target="_blank" class="p-3 nav-link-items">Github</a>
-                        <a href="https://twitter.com/hitesh27v" target="_blank"
-                            class="p-3 nav-link-items">Twitter</a>
-                        <a
-                            href="https://www.linkedin.com/in/hitesh-verma-8727921b2/"
-                            target="_blank" class="p-3 nav-link-items">LinkedIn</a>
-                    </div>
-                </footer>
+                    </svg>
+                </a>
+                <h2 class="logo-heading"> Orca UI</h2>
             </div>
-        </body>
-    </html>
+            <div class="nav-links mx-5">
+                <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/installation.html">Installation</a>
+                <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/avatar.html">Documentation</a>
+                <a class="mx-3 nav-link-items py-2 px- font-600" href="https://github.com/hiteshverma27"
+                    target="_blank">Github</a>
+            </div>
+        </header>
+        <div class="sidebar">
+            <div class="sidebar-main-heading">Orca Design System</div>
+            <h3 class="sidebar-heading"><a href="./documentation.html">Get
+                    Started</a></h3>
+            <ul>
+                <li>
+                    <a class="sidebar-item" href="#">Introduction</a>
+                    <a class="sidebar-item" href="#">Understand Orca</a>
+                    <a class="sidebar-item" href="#">Colors</a>
+                    <a class="sidebar-item" href="#">Typography</a>
+                </li>
+            </ul>
+            <h3 class="sidebar-heading"><a href="#">Components</a></h3>
+            <ul>
+                <li>
+                    <a class="sidebar-item" href="/Pages/avatar.html">Avatar
+                    </a>
+                    <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
+                    <a class="sidebar-item list-item-active" href="/Pages/alert.html">Alert </a>
+                    <a class="sidebar-item" href="/Pages/button.html">Button</a>
+                    <a class="sidebar-item" href="/Pages/input.html">Input</a>
+                    <a class="sidebar-item" href="/Pages/image.html">Image</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1 class="my-2">Alert</h1>
+            <hr>
+            <p>An alert is a system generated, contextual, and timely
+                message to a user that may or may not result from their
+                action.An alert is a system generated, contextual, and
+                timely message to a user that may or may not result from
+                their action.An alert is a system generated, contextual,
+                and timely message to a user that may or may not result
+                from their action.
+            </p>
+            <hr>
+            <h3 class="my-2">How to use</h3>
+            <p>To use alert just add <code>alert</code>
+                class to the HTML tag. </p>
+            <hr>
+            <h3 class="my-2">Variants</h3>
+            <ol class="ml-2">
+                <li><strong>Danger</strong>: Advise the
+                    user that their attention is needed to address or be
+                    aware of a critical issue that relates to the
+                    current context. To apply add <code>alert-danger</code></li>
+                <li><strong>Warning</strong>:
+                    Caution the user that their attention or action may
+                    be needed within the current context, but it may not
+                    be critical. To apply add <code>alert-warning</code></li>
+                <li><strong>Success</strong>:
+                    Reaffirm to the user that a prior action they have
+                    taken, often in a different location within the
+                    application, has been successful. To apply add <code>alert-success</code></li>
+                <li><strong>Information</strong>:
+                    Provide supplemental information to the user in
+                    regards to the current context or action they are
+                    about to take. To apply add <code>alert-info</code></li>
+                <li><strong>Tip</strong>:
+                    Educate the user about new or unused features, and
+                    other useful information. To apply add <code>alert-tip</code></li>
+            </ol>
+            <hr>
+            <h3 class="my-2">Examples</h3>
+            <div class="example-box my-4">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Echeck%253C%252Fspan%253E%2520This%2520is%2520an%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-tip%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Elightbulb%253C%252Fspan%253E%2520This%2520is%2520a%2520tip.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Ewarning%253C%252Fspan%253E%2520This%2520is%2520a%2520warning.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Epriority_high%253C%252Fspan%253EThis%2520is%2520a%2520danger.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Einfo%253C%252Fspan%253E%2520This%2520is%2520an%2520info.%253C%252Fdiv%253E"
+                    style="width: 917px; height: 287px; border:0;
+                            transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="example-box flex-col my-4">
+                <div class="alert alert-success my-1"> <span class="material-icons-outlined icon-s3 mr-1
+                                p-1">check</span> This is a success alert.</div>
+                <div class="alert alert-tip my-1"> <span class="material-icons-outlined icon-s3 mr-1
+                                p-1">lightbulb</span> This is a tip alert.</div>
+                <div class="alert alert-warning my-1"> <span class="material-icons-outlined icon-s3 mr-1
+                                p-1">warning</span> This is a warning alert.</div>
+                <div class="alert alert-danger my-1"> <span class="material-icons-outlined icon-s3 mr-1
+                                p-1">priority_high</span> This is a danger alert.</div>
+                <div class="alert alert-info my-1"> <span class="material-icons-outlined icon-s3 mr-1
+                                p-1">info</span> This is an info alert.</div>
+            </div>
+            <hr>
+        </div>
+        <div class="footer-navigation flex-space_between-center px-10
+                    my-3">
+            <button class="flex-center-center ml-4 p-2 footer-nav-prev"><img class="footer-nav"
+                    src="/Assests/arrow_back_ios_new_black_24dp.svg" alt="previous section"><a
+                    href="/Pages/badge.html">Get Started</a></button>
+            <p>Explore more components</p>
+            <button class="flex-center-center mr-4 p-2 footer-nav-next"><a href="/Pages/button.html">Avatar</a> <img
+                    class="footer-nav" src="/Assests/arrow_forward_ios_black_24dp.svg" alt="badge"></button>
+        </div>
+        <footer class="footer flex-center-center flex-col">
+            <div class="mb-3 mr-2">Made by Hitesh</div>
+            <div class="socials">
+                <a href="https://github.com/hiteshverma27" target="_blank" class="p-3 nav-link-items">Github</a>
+                <a href="https://twitter.com/hitesh27v" target="_blank" class="p-3 nav-link-items">Twitter</a>
+                <a href="https://www.linkedin.com/in/hitesh-verma-8727921b2/" target="_blank"
+                    class="p-3 nav-link-items">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

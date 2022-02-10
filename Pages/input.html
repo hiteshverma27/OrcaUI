@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentation | OrcaUI</title>
+    <title>Input | OrcaUI</title>
     <link rel="stylesheet" href="/Styles/OrcaUI-styles.css" />
     <link rel="stylesheet" href="/Styles/main.css" />
     <meta name="author" content="Hitesh Verma" />
@@ -94,139 +94,59 @@
                     <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
                     <a class="sidebar-item" href="/Pages/alert.html">Alert</a>
                     <a class="sidebar-item" href="/Pages/button.html">Button</a>
-                    <a class="sidebar-item" href="/Pages/input.html">Input</a>
-                    <a class="sidebar-item" href="/Pages/image.html">Image</a>
+                    <a class="sidebar-item list-item-active" href="/Pages/input.html">Input</a>
                 </li>
             </ul>
         </div>
         <div class="main-content">
-            <h1 class="my-2">Documentation index page will come here</h1>
+            <h1 class="my-2">Input</h1>
             <hr />
             <p>
-                A badge highlights system generated metadata as an
-                attribute of a
-                larger objects. Badges highlight metadata of objects,
-                the kind of
-                information that always needs some context and isn’t
-                useful on its
-                own. For example, they can be used to indicate an
-                issue’s status, a
-                member’s role, or if a branch is protected.
+                The Input component is a component that is used to get user input in a text field. Different types of
+                inputs are available for example text, number, password, email etc. You can also use <code>disabled</code> attribute
+                to disable the input.
             </p>
             <hr />
             <h3 class="my-2">How to use</h3>
             <p>
-                Badges are mostly buttons that lead to some page, so to
-                use badges
-                make
-                <code>button > a(to link a page) > img/span(image for
-                            profile picture and
-                            span for icon) + span(for badge)</code>.
+                To use input field just add <code>input</code> to the input element class.
             </p>
             <h3 class="my-2">For example</h3>
             <div class="example-box my-4">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522badge-btn%2522%253E%250A%2520%2520%253Ca%2520href%253D%2522%252Findex.html%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-s8%2522%253Eemail%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-red%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A"
-                    style="width: 495px;
-                            height: 223px;
-                            border: 0;
-                            transform: scale(1);
-                            overflow: hidden;" sandbox="allow-scripts
-                            allow-same-origin">
+                src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522This%2520is%2520the%2520example%2520for%2520input%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-error%2520input%2522%2520placeholder%253D%2522This%2520is%2520the%2520example%2520for%2520input%2520error%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-success%2520input%2522%2520placeholder%253D%2522This%2520is%2520the%2520example%2520for%2520input%2520success%2522%253E"
+                style="width: 1024px; height: auto; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
             <h3 class="my-2">Result</h3>
-            <p>Use <code>badge-(color)</code> to show status.</p>
-            <div class="example-box my-4">
-                <button class="badge-btn">
-                    <a href="/index.html">
-                        <span class="material-icons icon-s8">email</span>
-                        <span class="badge badge-red"></span>
-                    </a>
-                </button>
+            <p>Use <code>input</code> to make it input.</p>
+            <p>Use <code>input-(error/success)</code> to show status of input.</p>
+            <div class="example-box flex-col my-4">
+                <input type="text" class="input" placeholder="This is the example for input">
+                <input type="text" class="input-error input" placeholder="This is the example for input error">
+                <input type="text" class="input-success input" placeholder="This is the example for input success">
             </div>
             <hr />
-            <h3 class="my-2">Available sizes</h3>
+            <h3 class="my-2">Available variations</h3>
             <p>
-                3 standard sizes i,e. small(40px), medium(64px) and
-                large(96px) are
-                available and can be accessed by using
-                <code>material-icons icon-sm/md/lg</code> and for images
-                <code>badge-img img-sm/md/lg</code>. Apart from
-                standard, flexible
-                sizes are available for example 8, 16, 32, 40px... that
-                can be
-                accessed simply by using <code>icon-s6/7/8</code> and
-                <code>img-s6/7/8</code>.
+                <ol class="ml-2">
+                    <li><strong>Regular input</strong>- For regular inputs with no special style.</li>
+                    <li><strong>Error input</strong>- For error inputs with error style.</li>
+                    <li><strong>Success input</strong>- For success inputs with success style.</li>
+                </ol>
             </p>
             <hr />
-            <h3 class="my-2">Examples</h3>
-            <p>Example for icon status</p>
-            <div class="example-box my-4">
-                <button class="badge-btn">
-                    <a href="/index.html">
-                        <span class="material-icons icon-s8">notifications</span>
-                        <span class="badge badge-green"></span>
-                    </a>
-                </button>
-                <button class="badge-btn">
-                    <a href="/index.html">
-                        <span class="material-icons icon-s8">sports_esports</span>
-                        <span class="badge badge-red">9+</span>
-                    </a>
-                </button>
-                <button class="badge-btn">
-                    <a href="/index.html">
-                        <span class="material-icons icon-s8">heart_broken</span>
-                        <span class="badge badge-red"></span>
-                    </a>
-                </button>
+            <h3 class="my-2">Textarea Input</h3>
+            <p>Example for textarea input, it is flexible and responsive by nature. To use add <code>input</code> in <code>textarea</code>tag.</p>
+            <div class="example-box flex-col my-4">
+                <textarea name="This is text area input" class="input" placeholder="Textarea"></textarea>
             </div>
             <div class="example-box my-4">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522badge-btn%2522%253E%250A%2520%2520%253Ca%2520href%253D%2522%252Findex.html%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-s8%2522%253Eheart_broken%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-red%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A"
-                    style="width: 555px;
-                            height: 223px;
-                            border: 0;
-                            transform: scale(1);
-                            overflow: hidden;" sandbox="allow-scripts
-                            allow-same-origin">
-                </iframe>
-            </div>
-
-            <p>
-                Examples for image badge. To use simply add
-                <code>badge-img img-(size)</code>.
-            </p>
-            <div class="example-box my-4">
-                <button class="badge-btn s-8">
-                    <a href="/index.html">
-                        <img class="badge-img img-s8" src="https://i.pravatar.cc/300?img=57" alt="" />
-                        <span class="badge badge-red"></span>
-                    </a>
-                </button>
-                <button class="badge-btn s-8">
-                    <a href="/index.html">
-                        <img class="badge-img img-s8" src="https://i.pravatar.cc/300?img=61" alt="" />
-                        <span class="badge badge-red"></span>
-                    </a>
-                </button>
-                <button class="badge-btn s-8">
-                    <a href="/index.html">
-                        <img class="badge-img img-s8" src="https://i.pravatar.cc/300?img=" alt="" />
-                        <span class="badge badge-red">9+</span>
-                    </a>
-                </button>
-            </div>
-            <div class="example-box my-4">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522badge-btn%2520s-8%2522%253E%250A%2520%2520%2520%253Ca%2520href%253D%2522%252Findex.html%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522badge-img%2520img-s8%2522%2520src%253D%2522https%253A%252F%252Fi.pravatar.cc%252F300%253Fimg%253D%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge-red%2522%253E9%252B%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fa%253E%250A%253C%252Fbutton%253E"
-                    style="width: 754px;
-                            height: 186px;
-                            border: 0;
-                            transform: scale(1);
-                            overflow: hidden;" sandbox="allow-scripts
-                            allow-same-origin">
+                src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ctextarea%2520name%253D%2522This%2520is%2520text%2520area%2520input%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Textarea%2522%253E%253C%252Ftextarea%253E%250A"
+                style="width: 790px; height: 101px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
             <hr>

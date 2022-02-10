@@ -1,0 +1,9 @@
+.image{
+    width: 100%;
+    height: auto;
+}
+.image-round{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}

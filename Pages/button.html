@@ -1,35 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Button | OrcaUI</title>
-        <link rel="stylesheet" href="/Styles/OrcaUI-styles.css">
-        <link rel="stylesheet" href="/Styles/main.css">
-        <meta name="author" content="Hitesh Verma">
-        <meta name="Description" content="A variety of avatar to choose from.">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-            rel="stylesheet">
-        <script src="/JS/toggle.js" defer></script>
-        <link
-            href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-            rel="stylesheet">
-        <link rel="shortcut icon" href="/Assests/logo-rotated.svg"
-            type="image/x-icon">
-    </head>
-    <body>
-        <div class="main-wrapper">
-            <header class="header">
-                <div class="logo-container mx-3">
-                    <img class="menu-icon" src="/Assests/menu_white_48dp.svg"
-                        alt="logo">
-                    <a href="/index.html">
 
-                        <svg class="logo" width="242" height="213" viewBox="0 0
-                            242 213" fill="white"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M94.3929 47.9256C94.3025 49.6725 95.4292
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button | OrcaUI</title>
+    <link rel="stylesheet" href="/Styles/OrcaUI-styles.css">
+    <link rel="stylesheet" href="/Styles/main.css">
+    <meta name="author" content="Hitesh Verma">
+    <meta name="Description" content="A variety of avatar to choose from.">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="/JS/toggle.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="shortcut icon" href="/Assests/logo-rotated.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="header">
+            <div class="logo-container mx-3">
+                <img class="menu-icon" src="/Assests/menu_white_48dp.svg" alt="logo">
+                <a href="/index.html">
+
+                    <svg class="logo" width="242" height="213" viewBox="0 0
+                            242 213" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M94.3929 47.9256C94.3025 49.6725 95.4292
                                 51.7916 98.5712 55.7838C103.334 61.9722 103.948
                                 65.0436 101.009 67.3987C100.091 68.2269 96.0985
                                 71.3689 92.1063 74.511C71.3618 91.0906 57.907
@@ -67,162 +63,166 @@
                                 123.799 190.6 125.771C184.726 128.781 178.29
                                 129.032 169.1 126.444C142.25 118.974 138.276
                                 94.2459 163.806 93.6958Z" />
-                            </svg>
-                        </a>
-                        <h2 class="logo-heading"> Orca UI</h2>
-                    </div>
-                    <div class="nav-links mx-5">
-                        <a class="mx-3 nav-link-items py-2 px- font-600"
-                            href="/Pages/installation.html">Installation</a>
-                        <a class="mx-3 nav-link-items py-2 px- font-600"
-                            href="/Pages/avatar.html">Documentation</a>
-                        <a class="mx-3 nav-link-items py-2 px- font-600"
-                            href="https://github.com/hiteshverma27"
-                            target="_blank">Github</a>
-                    </div>
-                </header>
-                <div class="sidebar py-2">
-                    <h3 class="sidebar-heading"><a href="./documentation.html">Get
-                            Started</a></h3>
-                    <ul>
-                        <li>
-                            <a class="sidebar-item" href="#">Introduction</a>
-                            <a class="sidebar-item" href="#">Understand Orca</a>
-                            <a class="sidebar-item" href="#">Colors</a>
-                            <a class="sidebar-item" href="#">Typography</a>
-                        </li>
-                    </ul>
-                    <h3 class="sidebar-heading"><a href="#">Components</a></h3>
-                    <ul>
-                        <li>
-                            <a class="sidebar-item" href="/Pages/avatar.html">Avatar
-                            </a>
-                            <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
-                            <a class="sidebar-item"
-                            href="/Pages/alert.html">Alert </a>
-                            <a class="sidebar-item list-item-active" href="/Pages/button.html">Button</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="main-content">
-                    <h1 class="my-2">Button</h1>
-                    <hr>
-                    <p>A button indicates a distinct action and executes a function. Text, icon, or a combination of the two express the action and are supported by the variant and occasionally a tooltip.
-                    </p>
-                    <hr>
-                    <h3 class="my-2">How to use</h3>
-                    <p>To use button just add <code>btn</code>
-                        class to the HTML tag. </p>
-                    <hr>
-                    <h3 class="my-2">Variants</h3>
-                        <ol class="ml-2"><li><strong>Primary</strong>: Provide the strongest visual emphasis to an action with a solid background — one per context.</li> <li><strong>Secondary</strong>: Indicate a supplemental action with a border that matches the variant and a background that is close to, or the same as the page background color —&nbsp;one or more per context.</li> <li><strong>Tertiary</strong>: Incorporate a borderless action into the flow that has a background during interaction for affordance — one or more per context.</li></ol class="ml-2">
-                    <hr>
-                    <h3 class="my-2">Examples</h3>
-                    <div class="example-box my-4">
-                        <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=84px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=162%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary-danger%2522%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary-confirm%2522%253EConfirm%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary-danger%2522%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary-confirm%2522%253EConfirm%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-tertiary-danger%2522%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-tertiary-confirm%2522%253EConfirm%253C%252Fbutton%253E"
-                        style="width: 1024px; height: auto; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <div class="example-box my-4" style="background-color: white;">
+                    </svg>
+                </a>
+                <h2 class="logo-heading"> Orca UI</h2>
+            </div>
+            <div class="nav-links mx-5">
+                <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/installation.html">Installation</a>
+                <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/avatar.html">Documentation</a>
+                <a class="mx-3 nav-link-items py-2 px- font-600" href="https://github.com/hiteshverma27"
+                    target="_blank">Github</a>
+            </div>
+        </header>
+        <div class="sidebar">
+            <div class="sidebar-main-heading">Orca Design System</div>
+            <h3 class="sidebar-heading"><a href="./documentation.html">Get
+                    Started</a></h3>
+            <ul>
+                <li>
+                    <a class="sidebar-item" href="#">Introduction</a>
+                    <a class="sidebar-item" href="#">Understand Orca</a>
+                    <a class="sidebar-item" href="#">Colors</a>
+                    <a class="sidebar-item" href="#">Typography</a>
+                </li>
+            </ul>
+            <h3 class="sidebar-heading"><a href="#">Components</a></h3>
+            <ul>
+                <li>
+                    <a class="sidebar-item" href="/Pages/avatar.html">Avatar
+                    </a>
+                    <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
+                    <a class="sidebar-item" href="/Pages/alert.html">Alert </a>
+                    <a class="sidebar-item list-item-active" href="/Pages/button.html">Button</a>
+                    <a class="sidebar-item" href="/Pages/input.html">Input</a>
+                    <a class="sidebar-item" href="/Pages/image.html">Image</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1 class="my-2">Button</h1>
+            <hr>
+            <p>A button indicates a distinct action and executes a function. Text, icon, or a combination of the two
+                express the action and are supported by the variant and occasionally a tooltip.
+            </p>
+            <hr>
+            <h3 class="my-2">How to use</h3>
+            <p>To use button just add <code>btn</code>
+                class to the HTML tag. </p>
+            <hr>
+            <h3 class="my-2">Variants</h3>
+            <ol class="ml-2">
+                <li><strong>Primary</strong>: Provide the strongest visual emphasis to an action with a solid background
+                    — one per context.</li>
+                <li><strong>Secondary</strong>: Indicate a supplemental action with a border that matches the variant
+                    and a background that is close to, or the same as the page background color —&nbsp;one or more per
+                    context.</li>
+                <li><strong>Tertiary</strong>: Incorporate a borderless action into the flow that has a background
+                    during interaction for affordance — one or more per context.</li>
+            </ol class="ml-2">
+            <hr>
+            <h3 class="my-2">Examples</h3>
+            <div class="example-box my-4">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=84px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=162%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary-danger%2522%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary-confirm%2522%253EConfirm%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary-danger%2522%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary-confirm%2522%253EConfirm%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-tertiary-danger%2522%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-tertiary-confirm%2522%253EConfirm%253C%252Fbutton%253E"
+                    style="width: 1024px; height: auto; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="example-box my-4" style="background-color: white;">
+                <button class="btn-primary-danger">Delete</button>
+                <button class="btn-primary-confirm">Confirm</button>
+                <button class="btn-secondary-danger">Delete</button>
+                <button class="btn-secondary-confirm">Confirm</button>
+                <button class="btn-tertiary-danger">Delete</button>
+                <button class="btn-tertiary-confirm">Confirm</button>
+            </div>
+            <hr>
+            <h3 class="my-2">Link Buttons</h3>
+            <p>These buttons will point to a URL.</p>
+            <div class="example-box my-4" style="background-color: white;">
+                <a href="#">
                     <button class="btn-primary-danger">Delete</button>
+                </a>
+                <a href="#">
                     <button class="btn-primary-confirm">Confirm</button>
+                </a>
+                <a href="#">
                     <button class="btn-secondary-danger">Delete</button>
+                </a>
+                <a href="#">
                     <button class="btn-secondary-confirm">Confirm</button>
+                </a>
+                <a href="#">
                     <button class="btn-tertiary-danger">Delete</button>
+                </a>
+                <a href="#">
                     <button class="btn-tertiary-confirm">Confirm</button>
-                </div>
-                <hr>
-                <h3 class="my-2">Link Buttons</h3>
-                <p>These buttons will point to a URL.</p>
-                <div class="example-box my-4" style="background-color: white;">
-                    <a href="#">
-                        <button class="btn-primary-danger">Delete</button>
-                    </a>
-                    <a href="#">
-                        <button class="btn-primary-confirm">Confirm</button>
-                    </a>
-                    <a href="#">
-                        <button class="btn-secondary-danger">Delete</button>
-                    </a>
-                    <a href="#">
-                        <button class="btn-secondary-confirm">Confirm</button>
-                    </a>
-                    <a href="#">
-                        <button class="btn-tertiary-danger">Delete</button>
-                    </a>
-                    <a href="#">
-                        <button class="btn-tertiary-confirm">Confirm</button>
-                    </a>
-                </div>
-                <div class="example-box my-4">
-                    <iframe
+                </a>
+            </div>
+            <div class="example-box my-4">
+                <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=84px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=162%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-primary-danger%2522%253EDelete%253C%252Fbutton%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-primary-confirm%2522%253EConfirm%253C%252Fbutton%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-secondary-danger%2522%253EDelete%253C%252Fbutton%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-secondary-confirm%2522%253EConfirm%253C%252Fbutton%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-tertiary-danger%2522%253EDelete%253C%252Fbutton%253E%250A%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-tertiary-confirm%2522%253EConfirm%253C%252Fbutton%253E%250A%253C%252Fa%253E"
                     style="width: 100%; height: 200px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
-                  </iframe>                  
-                </div>
-                <hr>
-                <h3 class="my-2">Icon Buttons</h3>
-                <p>These buttons will point to a URL.</p>
-                <div class="example-box my-4" style="background-color: white;">
-                    <button class="btn-primary-danger"><span class="material-icons icon-s3">delete</span>Delete</button>
-                    <button class="btn-primary-confirm"><span class="material-icons icon-s3">check</span>Confirm</button>
-                    <button class="btn-secondary-danger"><span class="material-icons icon-s3">delete</span>Delete</button>
-                    <button class="btn-secondary-confirm"><span class="material-icons icon-s3">check</span>Confirm</button>
-                    <button class="btn-tertiary-danger"><span class="material-icons icon-s3">delete</span>Delete</button>
-                    <button class="btn-tertiary-confirm"><span class="material-icons icon-s3">check</span>Confirm</button>
-                </div>
-                <div class="example-box my-4">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=84px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=162%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary-danger%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Edelete%253C%252Fspan%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary-confirm%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Echeck%253C%252Fspan%253EConfirm%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary-danger%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Edelete%253C%252Fspan%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary-confirm%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Echeck%253C%252Fspan%253EConfirm%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-tertiary-danger%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Edelete%253C%252Fspan%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-tertiary-confirm%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Echeck%253C%252Fspan%253EConfirm%253C%252Fbutton%253E"
-                        style="width: 982px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <hr>
-                <h3 class="my-2">Floating action buttons</h3>
-                <p>These buttons will appear at bottom right. Use <code>btn-floating</code>to implement. Click button to show floating button.</p>
-                <div class="example-box my-4" style="background-color: white;">
-                    <button class="btn-primary-confirm show-floating-btn"><span class="material-icons icon-s3 ">visibility</span>Show floating button</button>
-                    <button class="btn-floating btn-primary-danger floating-button" style="display: none;"><span class="material-icons icon-sm">delete</span></button>
-                </div>
-                <div class="example-box my-4">
-                    <iframe
+                </iframe>
+            </div>
+            <hr>
+            <h3 class="my-2">Icon Buttons</h3>
+            <p>These buttons will point to a URL.</p>
+            <div class="example-box my-4" style="background-color: white;">
+                <button class="btn-primary-danger"><span class="material-icons icon-s3">delete</span>Delete</button>
+                <button class="btn-primary-confirm"><span class="material-icons icon-s3">check</span>Confirm</button>
+                <button class="btn-secondary-danger"><span class="material-icons icon-s3">delete</span>Delete</button>
+                <button class="btn-secondary-confirm"><span class="material-icons icon-s3">check</span>Confirm</button>
+                <button class="btn-tertiary-danger"><span class="material-icons icon-s3">delete</span>Delete</button>
+                <button class="btn-tertiary-confirm"><span class="material-icons icon-s3">check</span>Confirm</button>
+            </div>
+            <div class="example-box my-4">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=84px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=162%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-primary-danger%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Edelete%253C%252Fspan%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-primary-confirm%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Echeck%253C%252Fspan%253EConfirm%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary-danger%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Edelete%253C%252Fspan%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-secondary-confirm%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Echeck%253C%252Fspan%253EConfirm%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-tertiary-danger%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Edelete%253C%252Fspan%253EDelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-tertiary-confirm%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Echeck%253C%252Fspan%253EConfirm%253C%252Fbutton%253E"
+                    style="width: 982px; height: 208px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <hr>
+            <h3 class="my-2">Floating action buttons</h3>
+            <p>These buttons will appear at bottom right. Use <code>btn-floating</code>to implement. Click button to
+                show floating button.</p>
+            <div class="example-box my-4" style="background-color: white;">
+                <button class="btn-primary-confirm show-floating-btn"><span
+                        class="material-icons icon-s3 ">visibility</span>Show floating button</button>
+                <button class="btn-floating btn-primary-danger floating-button" style="display: none;"><span
+                        class="material-icons icon-sm">delete</span></button>
+            </div>
+            <div class="example-box my-4">
+                <iframe
                     src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=84px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=15.5px&lh=162%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-floating%2520btn-primary-danger%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-sm%2522%253Edelete%253C%252Fspan%253E%253C%252Fbutton%253E"
                     style="width: 1019px; height: 82px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <hr>
+                </iframe>
             </div>
-                <div class="footer-navigation flex-space_between-center px-10
+            <hr>
+        </div>
+        <div class="footer-navigation flex-space_between-center px-10
                     my-3">
-                    <button class="flex-center-center p-2 footer-nav-prev"><img
-                            class="footer-nav"
-                            src="/Assests/arrow_back_ios_new_black_24dp.svg"
-                            alt="previous section"><a
-                            href="/Pages/alert.html">Alert</a></button>
-                    <p>Explore more components</p>
-                    <button class="flex-center-center p-2 footer-nav-next"><a
-                            href="/Pages/badge.html">Badge</a> <img
-                            class="footer-nav"
-                            src="/Assests/arrow_forward_ios_black_24dp.svg"
-                            alt="badge"></button>
-                </div>
-                <footer class="footer flex-center-center flex-col">
-                    <div class="mb-3 mr-2">Made by Hitesh</div>
-                    <div class="socials">
-                        <a href="https://github.com/hiteshverma27"
-                            target="_blank" class="p-3 nav-link-items">Github</a>
-                        <a href="https://twitter.com/hitesh27v" target="_blank"
-                            class="p-3 nav-link-items">Twitter</a>
-                        <a
-                            href="https://www.linkedin.com/in/hitesh-verma-8727921b2/"
-                            target="_blank" class="p-3 nav-link-items">LinkedIn</a>
-                    </div>
-                </footer>
+            <button class="flex-center-center ml-4 p-2 footer-nav-prev"><img class="footer-nav"
+                    src="/Assests/arrow_back_ios_new_black_24dp.svg" alt="previous section"><a
+                    href="/Pages/alert.html">Badge</a></button>
+            <p>Explore more components</p>
+            <button class="flex-center-center mr-4 p-2 footer-nav-next"><a href="/Pages/badge.html">Image</a> <img
+                    class="footer-nav" src="/Assests/arrow_forward_ios_black_24dp.svg" alt="badge"></button>
+        </div>
+        <footer class="footer flex-center-center flex-col">
+            <div class="mb-3 mr-2">Made by Hitesh</div>
+            <div class="socials">
+                <a href="https://github.com/hiteshverma27" target="_blank" class="p-3 nav-link-items">Github</a>
+                <a href="https://twitter.com/hitesh27v" target="_blank" class="p-3 nav-link-items">Twitter</a>
+                <a href="https://www.linkedin.com/in/hitesh-verma-8727921b2/" target="_blank"
+                    class="p-3 nav-link-items">LinkedIn</a>
             </div>
-        </body>
-    </html>
+        </footer>
+    </div>
+</body>
+
+</html>
