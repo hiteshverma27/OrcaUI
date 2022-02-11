@@ -42,7 +42,6 @@ body {
   width: 25rem;
   box-shadow: 4px 4px 8px 0px var(--accent-color);
   font-size: var(--s2);
-  display: none;
 }
 .footer {
   grid-area: f;
@@ -82,8 +81,8 @@ body {
   background-color: lightgray;
 }
 .sidebar-heading {
-  text-align: center;
-  margin-left: -5.6rem;
+  text-align: left;
+  margin-left: 4rem;
   padding: 1.6rem 0rem 1rem 0rem;
 }
 .sidebar-main-heading {

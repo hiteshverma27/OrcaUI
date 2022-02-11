@@ -1,0 +1,28 @@
+.grid-2{
+    display: grid;
+    background-color: lightgray;
+    grid-gap: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(2, 16rem);
+}
+.grid-3{
+    display: grid;
+    background-color: lightgray;
+    grid-gap: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(3, 16rem);
+}
+.grid-2 div{
+    background-color: whitesmoke;
+    min-height: 9rem;
+    min-width: 16rem;
+    outline: 2px solid black;
+    font-weight: bolder;
+}
+.grid-3 div{
+    background-color: cadetblue;
+    min-height: 9rem;
+    min-width: 16rem;
+    outline:  2px solid black;
+    font-weight: bolder;
+}

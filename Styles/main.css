@@ -8,6 +8,7 @@
 @import "/Styles/input.css";
 @import "/Styles/image.css";
 @import "/Styles/card.css";
+@import "/Styles/grid.css";
 
 /* **** Utilities **** */
 @import "/Utilities/typography.css";
@@ -17,3 +18,7 @@
 @import "/Utilities/margin.css";
 @import "/Utilities/padding.css";
 @import "/Utilities/buttons.css";
+
+/* **** Google material icons **** */
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
