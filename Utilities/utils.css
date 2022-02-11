@@ -2,6 +2,9 @@
     background-color: var(--accent-color);
     color: white;
 }
+.bg-white{
+    background-color: white;
+}
 .bold{
     font-weight: bolder;
 }
@@ -56,6 +59,7 @@
 /* ********* Material Icon size s1=1rem=10px ********** */
 
 .material-icons.icon-s1 { font-size: var(--s1); }
+.material-icons.icon-card-rating { font-size: 1rem; }
 .material-icons.icon-s2 { font-size: var(--s2); }
 .material-icons.icon-s3 { font-size: var(--s3); }
 .material-icons.icon-s4 { font-size: var(--s4); }

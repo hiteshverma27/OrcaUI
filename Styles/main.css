@@ -7,6 +7,7 @@
 @import "/Styles/button.css";
 @import "/Styles/input.css";
 @import "/Styles/image.css";
+@import "/Styles/card.css";
 
 /* **** Utilities **** */
 @import "/Utilities/typography.css";

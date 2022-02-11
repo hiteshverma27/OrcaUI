@@ -16,7 +16,6 @@ body {
     "d c c c c"
     "d fn fn fn fn"
     "d f f f f";
-  /* margin-left: -20px; */
 }
 .logo {
   width: 10vh;
@@ -31,7 +30,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 10;
+  z-index: 100;
   transition: ease-in-out 1s;
 }
 .sidebar {
@@ -43,8 +42,7 @@ body {
   width: 25rem;
   box-shadow: 4px 4px 8px 0px var(--accent-color);
   font-size: var(--s2);
-  /* margin-left: 20px; */
-  /* margin-right: auto; */
+  display: none;
 }
 .footer {
   grid-area: f;
@@ -236,5 +234,4 @@ hr {
 }
 ol li {
   font-size: var(--s2);
-  /* margin-left: 2rem; */
 }

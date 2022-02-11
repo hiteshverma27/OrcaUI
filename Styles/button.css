@@ -4,6 +4,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-primary-confirm {
   background-color: var(--btn-color-confirm);
@@ -11,6 +13,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-primary-danger:hover {
   background-color: var(--btn-color-danger-hover);
@@ -18,6 +22,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-primary-confirm:hover {
   background-color: var(--btn-color-confirm-hover);
@@ -25,6 +31,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-secondary-danger {
   background-color: white;
@@ -33,6 +41,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-secondary-confirm {
   background-color: white;
@@ -41,6 +51,18 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.btn-secondary-grey {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-secondary-danger:hover {
   background-color: white;
@@ -49,6 +71,18 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.btn-secondary-grey:hover {
+  background-color: white;
+  color: #666666;
+  border: 1px solid #666666;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-secondary-confirm:hover {
   background-color: white;
@@ -57,6 +91,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-tertiary-danger {
   color: var(--btn-color-danger);
@@ -64,6 +100,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-tertiary-confirm {
   color: var(--btn-color-confirm);
@@ -71,6 +109,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-tertiary-danger:hover {
   color: var(--btn-color-danger-hover);
@@ -78,6 +118,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-tertiary-confirm:hover {
   color: var(--btn-color-confirm-hover);
@@ -85,6 +127,8 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .btn-floating {
   padding: 2rem;
