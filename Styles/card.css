@@ -1,0 +1,148 @@
+.card-v{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 32rem;
+    width: 18rem;
+    background-color: white;
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+}
+.card-v:hover{
+    box-shadow: 0px 3px 6px 0px #51555f7d;
+    transition: ease-in-out 0.2s;
+}
+.card-v button{
+    background-color: var(--btn-color-confirm);
+    color: white;
+}
+.card-v button:hover{
+    background-color: var(--btn-color-confirm-hover);
+}
+.card-rating{
+    background-color: #388E3C;
+    color: white;
+    display: flex;
+    width: 3rem;
+    height: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2px;
+    border-radius: 5px;
+    margin: 0rem 0.5rem;
+}
+.icon-card-rating{
+    margin-right: 2px;
+}
+.card h4{
+    padding: 1rem 0;
+}
+.card-discount{
+    color: #388E3C;
+    font-size: small;
+    font-weight: bold;
+}
+.card-price{
+    font-weight: bolder;
+}
+.card-v-badge{
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    opacity: .6;
+}
+.card-badge-icon:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+    color: red;
+}
+.card-badge-icon{
+    background-color: lightgray;
+    padding: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}
+.card-overlay{
+    background-color: lightgrey;
+    position: absolute;
+    padding: 1rem;
+    width: 17rem;
+    height: 5rem;
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    margin-left: 0;
+    z-index: 10;
+    }
+    
+.card-overlay-text{
+    color: red;
+    font-weight: bolder;
+}
+.card-horizontal{
+    height: calc(3 * 9rem);
+    width: calc(3 * 16rem);
+    display: grid;
+    border: 2px solid lightgrey;
+    background-color: white;
+    padding: 1rem;
+    grid-template-areas:
+    "img des"
+    "img cta"
+}
+.card-h-product-img{
+    grid-area: img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(1.5 * 9rem);
+    margin: auto;
+}
+.card-h-description{
+    grid-area: des;
+    max-width: 120%;
+    padding: 1rem;
+    min-width: calc(1.2 * 16rem);
+}
+.card-h-cta{
+    grid-area: cta;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-h-img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.card-horizontal:hover{
+    transition: ease-in-out .2s;
+    box-shadow: 0px 3px 6px 0px #51555f7d;
+}
+.card-h-badge{
+    padding: .5rem;
+    background-color: lightgray;
+    position: absolute  ;
+    border-radius: 50%;
+    margin-left: auto;
+    z-index: 10;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.card-h-badge:hover {
+    transform: scale(1.1);
+    transition: ease-in-out .2s;
+    color: red;
+}
+
+
