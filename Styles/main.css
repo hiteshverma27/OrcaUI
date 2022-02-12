@@ -9,6 +9,7 @@
 @import "/Styles/image.css";
 @import "/Styles/card.css";
 @import "/Styles/grid.css";
+@import "/Styles/modal.css";
 
 /* **** Utilities **** */
 @import "/Utilities/typography.css";
@@ -22,3 +23,4 @@
 /* **** Google material icons **** */
 
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");

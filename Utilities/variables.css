@@ -49,4 +49,6 @@
   /* ****************** Btn colors ********************** */
   --color-success: #90ee90;
   --color-error: #ff7070;
+  
+  --box-shadow: 0px 3px 6px 0px #51555f7d;
 }
