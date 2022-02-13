@@ -3,7 +3,7 @@
     color: white;
 }
 .bg-white{
-    background-color: white;
+    background-color: var(--white);
 }
 .bold{
     font-weight: bolder;
@@ -14,8 +14,11 @@
 .color-fill-black{
     fill: black;
 }
-.w-40{
+.w-40per{
     width: 40%;
+}
+.w-100per{
+    width: 100%
 }
 /* ********* Position classes ********** */
 
