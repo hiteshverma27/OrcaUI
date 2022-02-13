@@ -10,6 +10,7 @@
 @import "/Styles/card.css";
 @import "/Styles/grid.css";
 @import "/Styles/modal.css";
+@import "/Styles/navigation.css";
 
 /* **** Utilities **** */
 @import "/Utilities/typography.css";
