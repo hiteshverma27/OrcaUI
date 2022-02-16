@@ -1,0 +1,104 @@
+/* ******************* Width in percentage ************************** */
+
+.w-100per{
+    width: 100%;
+}
+.w-90per{
+    width: 90%;
+}
+.w-80per{
+    width: 80%;
+}
+.w-70per{
+    width: 70%;
+}
+.w-60per{
+    width: 60%;
+}
+.w-50per{
+    width: 50%;
+}
+.w-40per{
+    width: 40%;
+}
+.w-30per{
+    width: 30%;
+}
+.w-20per{
+    width: 20%;
+}
+.w-10per{
+    width: 10%;
+}
+
+
+/* ******************* Width in rem ************************** */
+
+.w-100rem{
+    width: 100rem;
+}
+.w-90rem{
+    width: 90rem;
+}
+.w-80rem{
+    width: 80rem;
+}
+.w-70rem{
+    width: 70rem;
+}
+.w-60rem{
+    width: 60rem;
+}
+.w-50rem{
+    width: 50rem;
+}
+.w-40rem{
+    width: 40rem;
+}
+.w-30rem{
+    width: 30rem;
+}
+.w-20rem{
+    width: 20rem;
+}
+.w-10rem{
+    width: 10rem;
+}
+
+/* ******************* Width in vh ************************** */
+
+.w-100vw{
+    width: 100vw;
+}
+.w-90vw{
+    width: 90vw;
+}
+.w-80vw{
+    width: 80vw;
+}
+.w-70vw{
+    width: 70vw;
+}
+.w-60vw{
+    width: 60vw;
+}
+.w-50vw{
+    width: 50vw;
+}
+.w-40vw{
+    width: 40vw;
+}
+.w-30vw{
+    width: 30vw;
+}
+.w-20vw{
+    width: 20vw;
+}
+.w-10vw{
+    width: 10vw;}
+
+/* ******************* auto width ************************** */
+
+.w-auto{
+    width: auto;
+}

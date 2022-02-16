@@ -1,0 +1,105 @@
+/* ******************* Height in percentage ************************** */
+
+.h-100per{
+    height: 100%;
+}
+.h-90per{
+    height: 90%;
+}
+.h-80per{
+    height: 80%;
+}
+.h-70per{
+    height: 70%;
+}
+.h-60per{
+    height: 60%;
+}
+.h-50per{
+    height: 50%;
+}
+.h-40per{
+    height: 40%;
+}
+.h-30per{
+    height: 30%;
+}
+.h-20per{
+    height: 20%;
+}
+.h-10per{
+    height: 10%;
+}
+
+
+/* ******************* Height in rem ************************** */
+
+.h-100rem{
+    height: 100rem;
+}
+.h-90rem{
+    height: 90rem;
+}
+.h-80rem{
+    height: 80rem;
+}
+.h-70rem{
+    height: 70rem;
+}
+.h-60rem{
+    height: 60rem;
+}
+.h-50rem{
+    height: 50rem;
+}
+.h-40rem{
+    height: 40rem;
+}
+.h-30rem{
+    height: 30rem;
+}
+.h-20rem{
+    height: 20rem;
+}
+.h-10rem{
+    height: 10rem;
+}
+
+/* ******************* Height in vh ************************** */
+
+.h-100vh{
+    height: 100vh;
+}
+.h-90vh{
+    height: 90vh;
+}
+.h-80vh{
+    height: 80vh;
+}
+.h-70vh{
+    height: 70vh;
+}
+.h-60vh{
+    height: 60vh;
+}
+.h-50vh{
+    height: 50vh;
+}
+.h-40vh{
+    height: 40vh;
+}
+.h-30vh{
+    height: 30vh;
+}
+.h-20vh{
+    height: 20vh;
+}
+.h-10vh{
+    height: 10vh;
+}
+
+/* ******************* auto height ************************** */
+
+.h-auto{
+    height: auto;
+}

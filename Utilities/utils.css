@@ -14,12 +14,6 @@
 .color-fill-black{
     fill: black;
 }
-.w-40per{
-    width: 40%;
-}
-.w-100per{
-    width: 100%
-}
 /* ********* Position classes ********** */
 
 .fixed{
@@ -35,6 +29,19 @@
     position: absolute;
 }
 
+/* ********* Center classes ********** */
+
+.center-div-method-2{         /***** By absoulte method *******/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ********* Display classes ********** */
+.text-align-center{
+    text-align: center;
+}
 /* ********* Display classes ********** */
 
 .flex{
@@ -60,6 +67,9 @@
 }
 .flex-col{
     flex-direction: column;
+}
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 /* ********* Material Icon size s1=1rem=10px ********** */
