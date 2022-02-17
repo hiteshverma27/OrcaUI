@@ -5,6 +5,9 @@
 .bg-white{
     background-color: var(--white);
 }
+.bg-black{
+    background-color: black;
+}
 .bold{
     font-weight: bolder;
 }
@@ -31,11 +34,22 @@
 
 /* ********* Center classes ********** */
 
+.center-div-method-1{          /***** By Flex method *******/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .center-div-method-2{         /***** By absoulte method *******/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.center-div-method-3{           /***** By Grid method *******/
+    display: grid;
+    place-items: center;
 }
 
 /* ********* Display classes ********** */
