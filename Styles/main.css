@@ -11,6 +11,7 @@
 @import "/Styles/grid.css";
 @import "/Styles/modal.css";
 @import "/Styles/navigation.css";
+@import "/Styles/snackbar.css";
 
 /* **** Utilities **** */
 @import "/Utilities/typography.css";
