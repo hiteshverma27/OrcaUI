@@ -6,6 +6,14 @@ document.querySelector(".menu-icon").addEventListener("click", ()=>{
         sidebar.style.display = "none";
       }
 })
+const snackbar = document.querySelector("#snackbar");
+document.querySelector("#show-snackbar-btn").addEventListener("click", ()=>{
+  if (snackbar.style.display === "none") {
+    snackbar.style.display = "block";
+  } else {
+    snackbar.style.display = "none";
+  }
+})
 const floatingActionBtn = document.querySelector(".floating-button");
 document.querySelector(".show-floating-btn").addEventListener("click", ()=>{
   if (floatingActionBtn.style.display === "none") {

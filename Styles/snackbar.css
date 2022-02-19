@@ -1,0 +1,18 @@
+.snackbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    z-index: 500;
+    box-shadow: var(--box-shadow);
+}
+.snackbar button{
+    border: none;
+    background-color: var(--primary-color);
+    color: grey;
+}
+.snackbar button:hover{
+    color: white;
+}
