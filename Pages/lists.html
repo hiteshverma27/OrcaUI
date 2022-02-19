@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alert | OrcaUI</title>
+    <title>Lists | OrcaUI</title>
     <link rel="stylesheet" href="/Styles/OrcaUI-styles.css">
     <link rel="stylesheet" href="/Styles/main.css">
     <meta name="author" content="Hitesh Verma">
@@ -29,7 +29,8 @@
     <div class="main-wrapper">
         <header class="header">
             <div class="logo-container mx-3">
-                <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
+                <span class="menu-icon material-icons-outlined icon-s6 ">menu</span>
+                
                 <a href="/index.html">
 
                     <svg class="logo" width="242" height="213" viewBox="0 0
@@ -85,8 +86,9 @@
         </header>
         <div class="sidebar">
             <div class="sidebar-main-heading">Orca Design System</div>
-            <h3 class="sidebar-heading"><a href="./documentation.html">Get
-                    Started</a></h3>
+            <h3 class="sidebar-heading">
+                <a href="/Pages/installation.html">Get Started</a>
+            </h3>
             <ul>
                 <li>
                     <a class="sidebar-item" href="#">Introduction</a>
@@ -95,80 +97,95 @@
                     <a class="sidebar-item" href="#">Typography</a>
                 </li>
             </ul>
+            <h3 class="sidebar-heading"><a href="#">Layout</a></h3>
+        <ul>
+          <li>
+            <a class="sidebar-item" href="/Pages/grid.html">Grid </a>
+          </li>
+        </ul>
             <h3 class="sidebar-heading"><a href="#">Components</a></h3>
             <ul>
                 <li>
                     <a class="sidebar-item" href="/Pages/avatar.html">Avatar
                     </a>
                     <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
-                    <a class="sidebar-item list-item-active" href="/Pages/alert.html">Alert </a>
+                    <a class="sidebar-item" href="/Pages/alert.html">Alert</a>
                     <a class="sidebar-item" href="/Pages/button.html">Button</a>
                     <a class="sidebar-item" href="/Pages/card.html">Card</a>
                     <a class="sidebar-item" href="/Pages/input.html">Input</a>
                     <a class="sidebar-item" href="/Pages/image.html">Image</a>
+                    <a class="sidebar-item list-item-active" href="/Pages/lists.html">Lists</a>
+                    <a class="sidebar-item" href="/Pages/modal.html">Modal</a>
+                    <a class="sidebar-item" href="/Pages/navigation.html">Navigation</a>
+                    <a class="sidebar-item" href="/Pages/slider.html">Slider</a>
                 </li>
             </ul>
         </div>
         <div class="main-content">
-            <h1 class="my-2">Alert</h1>
+            <h1 class="my-2">Slider</h1>
             <hr>
-            <p>An alert is a system generated, contextual, and timely
-                message to a user that may or may not result from their
-                action.An alert is a system generated, contextual, and
-                timely message to a user that may or may not result from
-                their action.An alert is a system generated, contextual,
-                and timely message to a user that may or may not result
-                from their action.
+            <p>A list consists of related pieces of information grouped together, clearly associated to each other. Lists are easy to read and maintain, and they provide a good structural point of view for interface elements.
             </p>
             <hr>
             <h3 class="my-2">How to use</h3>
-            <p>To use alert just add <code>alert</code>
-                class to the HTML tag. </p>
-            <hr>
-            <h3 class="my-2">Variants</h3>
-            <ol class="ml-2">
-                <li><strong>Danger</strong>: Advise the
-                    user that their attention is needed to address or be
-                    aware of a critical issue that relates to the
-                    current context. To apply add <code>alert-danger</code></li>
-                <li><strong>Warning</strong>:
-                    Caution the user that their attention or action may
-                    be needed within the current context, but it may not
-                    be critical. To apply add <code>alert-warning</code></li>
-                <li><strong>Success</strong>:
-                    Reaffirm to the user that a prior action they have
-                    taken, often in a different location within the
-                    application, has been successful. To apply add <code>alert-success</code></li>
-                <li><strong>Information</strong>:
-                    Provide supplemental information to the user in
-                    regards to the current context or action they are
-                    about to take. To apply add <code>alert-info</code></li>
-                <li><strong>Tip</strong>:
-                    Educate the user about new or unused features, and
-                    other useful information. To apply add <code>alert-tip</code></li>
-            </ol>
-            <hr>
+            <p>Copy paste the below code snip in your body tag and adjust according to your need. </p>
             <h3 class="my-2">Examples</h3>
+            <div class="example-box flex-col my-4">
+                <ul>
+                    <li class="font-size-larger">Stacked list item 1</li>
+                    <li class="font-size-larger">Stacked list item 2</li>
+                    <li class="font-size-larger">Stacked list item 3</li>
+                </ul>
+            </div>
+            <hr>
+            <h3 class="my-2">Code</h3>
             <div class="example-box my-4">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Echeck%253C%252Fspan%253E%2520This%2520is%2520an%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-tip%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Elightbulb%253C%252Fspan%253E%2520This%2520is%2520a%2520tip.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Ewarning%253C%252Fspan%253E%2520This%2520is%2520a%2520warning.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Epriority_high%253C%252Fspan%253EThis%2520is%2520a%2520danger.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2520my-1%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-s3%2520mr-1%2520p-1%2522%253Einfo%253C%252Fspan%253E%2520This%2520is%2520an%2520info.%253C%252Fdiv%253E"
-                    style="width: 917px; height: 287px; border:0;
-                            transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <div class="example-box flex-col my-4">
-                <div class="alert alert-success my-1"> <span class="material-icons-outlined icon-s3 mr-1
-                                p-1">check</span> This is a success alert.</div>
-                <div class="alert alert-tip my-1"> <span class="material-icons-outlined icon-s3 mr-1
-                                p-1">lightbulb</span> This is a tip alert.</div>
-                <div class="alert alert-warning my-1"> <span class="material-icons-outlined icon-s3 mr-1
-                                p-1">warning</span> This is a warning alert.</div>
-                <div class="alert alert-danger my-1"> <span class="material-icons-outlined icon-s3 mr-1
-                                p-1">priority_high</span> This is a danger alert.</div>
-                <div class="alert alert-info my-1"> <span class="material-icons-outlined icon-s3 mr-1
-                                p-1">info</span> This is an info alert.</div>
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522font-size-larger%2522%253EStacked%2520list%2520item%25201%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522font-size-larger%2522%253EStacked%2520list%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522font-size-larger%2522%253EStacked%2520list%2520item%25203%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="width: 100%; height: 151px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+        <hr>
+        <h3 class="my-2">Stacked list</h3>
+        <div class="example-box flex-col my-4">
+            <ul>
+                <li class="my-1 px-2 font-size-larger flex">
+                    <span class="material-icons-outlined icon-sm m-1">
+                        person</span>
+                        <div class="flex-col">
+                            <h4>Person one</h4>
+                            <p>Notification one</p>
+                        </div>
+                    </li>
+                    <li class="my-1 px-2 font-size-larger flex">
+                   <span class="material-icons-outlined icon-sm m-1">
+                   person</span>
+                   <div class="flex-col">
+                       <h4>Person two</h4>
+                       <p>Notification two</p>
+                    </div>
+                </li>
+                <li class="my-1 px-2 font-size-larger flex">
+                    <span class="material-icons-outlined icon-sm m-1">
+                        person</span>
+                        <div class="flex-col">
+                            <h4>Person three</h4>
+                            <p>Notification three</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <hr>
+            <h3 class="my-2">Code</h3>
+            <div class="example-box my-4">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522my-1%2520px-2%2520font-size-larger%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-sm%2520m-1%2522%253E%250A%2520%2520%2520%2520%2520%2520person%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EPerson%2520one%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ENotification%2520one%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522my-1%2520px-2%2520font-size-larger%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-sm%2520m-1%2522%253E%250A%2520%2520%2520%2520%2520%2520person%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EPerson%2520two%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ENotification%2520two%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522my-1%2520px-2%2520font-size-larger%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520icon-sm%2520m-1%2522%253E%250A%2520%2520%2520%2520%2520%2520person%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EPerson%2520three%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ENotification%2520three%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
+  style="width: 494px; height: 542px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>   
+        </div>
+        <hr>
         </div>
         <div class="footer-navigation flex-space_between-center px-10
                     my-3">
