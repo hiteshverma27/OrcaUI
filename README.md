@@ -58,6 +58,9 @@ For support or feedback, email hitesh.verma2711@gmail.com
 
 ## Screenshots
 ![Home Page](https://user-images.githubusercontent.com/87027579/154686460-f6433fe2-086c-4ca9-ab19-ca902769723f.png)
+
+![Installation](https://user-images.githubusercontent.com/87027579/154855699-997b4c73-838e-4cf0-bf3e-81239e1a90fb.png)
+
 ![Avatar Page](https://user-images.githubusercontent.com/87027579/154689789-3c0f61de-25ad-4025-ae31-10671cb1e8b4.png)
 
 
