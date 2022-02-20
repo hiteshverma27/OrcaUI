@@ -31,7 +31,9 @@ Orca UI comes with a wide selection of utility classes which are easy to use and
 ## Examples for utility classes
 
 A glimpse of various utility classes
+
 ![margin utility](https://user-images.githubusercontent.com/87027579/154856672-255a3680-467b-406c-ac29-7d0a0c22debb.png)
+
 ![font utility](https://user-images.githubusercontent.com/87027579/154856674-56869e84-6a7c-4b9a-a95f-f4fec5680e60.png)
 
 
