@@ -234,3 +234,45 @@ hr {
 ol li {
   font-size: var(--s2);
 }
+
+
+@media screen and (max-width:425px){
+  :root{
+    font-size: 1.6rem;
+  }
+  .header{
+    height: 10rem;
+  }
+  .header .logo-container{
+    margin: 0;
+  }
+  .header .nav-links{
+    margin-right: 0;
+    display: flex;
+    justify-content: end;
+    margin-left: 0;
+  }
+  .logo-container h2{
+    width: max-content;
+  }
+  .main-wrapper .footer-navigation{
+    padding: 0;
+  }
+  .main-wrapper .footer{
+    height: 20rem;
+    font-size: larger;
+  }
+  .main-wrapper {
+    grid-template-areas:
+      "h h h h"
+      "d d d d"
+      "c c c c"
+      "c c c c"
+      "fn fn fn fn"
+      "f f f f";
+  }
+  .main-wrapper .sidebar{
+    display: none;
+    width: 100%;
+  }
+}
