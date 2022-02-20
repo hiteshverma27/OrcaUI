@@ -43,10 +43,6 @@
   margin-top: var(--s1);
   margin-bottom: var(--s1);
 }
-.mt-1 {
-  margin-top: var(--s1);
-  /* margin-bottom: var(--s1); */
-}
 .my-2 {
   margin-top: var(--s2);
   margin-bottom: var(--s2);
