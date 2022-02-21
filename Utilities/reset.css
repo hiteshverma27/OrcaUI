@@ -24,7 +24,7 @@ button {
 /* headings */
 h1 {
   font-size: var(--s6);
-  /* line-height: 6.4rem; */
+  line-height: 6.4rem;
 }
 
 h2 {
