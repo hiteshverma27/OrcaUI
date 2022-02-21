@@ -246,10 +246,7 @@ ol li {
 
 @media screen and (max-width:425px){
   :root{
-    font-size: 1.6rem;
-  }
-  html{
-    width: 100vw;
+    font-size: 6px;
   }
   .header{
     height: 10rem;
@@ -285,6 +282,7 @@ ol li {
   .main-wrapper .sidebar{
     display: none;
     width: 100%;
+    height: 20vh;
     z-index: 200;
     position: sticky;
     top: 10rem;
@@ -293,4 +291,5 @@ ol li {
   .logo-container .logo-heading{
     display: none;
   }
+
 }
