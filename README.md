@@ -22,6 +22,11 @@ Include this link in your ```<head>``` tag and you are good to go
 
 ```
 
+## Mobile responsive
+
+![mobile (3)](https://user-images.githubusercontent.com/87027579/155016322-2ca883fd-71ea-42bd-8106-f254bfb62474.gif)
+
+
 ## Persistent Dark Mode
 
 ![dark-mode-demo](https://user-images.githubusercontent.com/87027579/154998535-af9fdfd5-5ba8-4352-b128-69f04716ebdb.png)
