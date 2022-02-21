@@ -66,7 +66,7 @@
     right: 0;
 }
 .card-overlay{
-    background-color: var(--lightgrey);
+    background-color: var(--grey);
     position: absolute;
     padding: 1rem;
     width: 17rem;
