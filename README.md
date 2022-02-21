@@ -56,16 +56,19 @@ A glimpse of various utility classes
 
 All basic components to build an awesome website are included
 
-- Alert
-- Avatar
-- Badge
-- Button
-- Card
-- Grid
-- Image
-- Input
-- Modal 
-- Navigation
+- [Alert](https://orcaui.netlify.app/pages/alert)
+- [Avatar](https://orcaui.netlify.app/pages/avatar)
+- [Badge](https://orcaui.netlify.app/pages/badge)
+- [Button](https://orcaui.netlify.app/pages/button)
+- [Card](https://orcaui.netlify.app/pages/card)
+- [Grid](https://orcaui.netlify.app/pages/grid)
+- [Image](https://orcaui.netlify.app/pages/image)
+- [Input](https://orcaui.netlify.app/pages/input)
+- [Modal](https://orcaui.netlify.app/pages/modal)
+- [Navigation](https://orcaui.netlify.app/pages/navigation)
+- [Text Utility](https://orcaui.netlify.app/pages/text-utility)
+- [Slider](https://orcaui.netlify.app/pages/slider)
+- [Rating(for ecom)](https://orcaui.netlify.app/pages/rating)
 
 ## Support and feedback
 
