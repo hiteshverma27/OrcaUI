@@ -23,8 +23,17 @@
   --primary-color: #0d0c1d;
   --accent-color: #00b2ca; /*00B2CA*/
   --white: #f5f5f5;
-  --example-box-color: #e4e0e0;
+  --black: #000000;
+  --red: #ff0000;
+  --blue: #0000ff;
+  --green: #008000;
+  --grey:#808080;
   --lightgray: #d3d3d3ab;
+  --example-box-color: #e4e0e0;
+  --dark-mode-color: #1A202C; /*#2021248*/
+  --dark-mode-color-2: #202124; /*#2021248*/
+  --sidebar-item-hover: #d3d3d367;
+  --menu-icon-hover: #3f3c3c;
 
   /* ****************** Alert background colors ********************** */
   --alert-background-success: #b3f1c3;
@@ -45,10 +54,15 @@
   --btn-color-confirm: #1f75cb;
   --btn-color-danger-hover: #c52700;
   --btn-color-confirm-hover: #1d66af;
+  --btn-color-grey: #666666;
   
   /* ****************** Btn colors ********************** */
   --color-success: #90ee90;
   --color-error: #ff7070;
   
   --box-shadow: 0px 3px 6px 0px #51555f7d;
+  
+  /* ****************** Card colors ********************** */
+  --card-rating-color: #388E3C;
 }
+

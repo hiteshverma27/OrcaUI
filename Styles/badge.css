@@ -16,22 +16,22 @@
   right: -0.5rem;
   width: 55%;
   height: 55%;
-  color: #ffffff;
+  color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  outline: 0.2rem solid white;
+  outline: 0.2rem solid var(--white);
   font-size: 1.5rem;
 }
 .badge-red {
-  background: red;
+  background: var(--red);
 }
 .badge-green {
-  background: green;
+  background: var(--green);
 }
 .badge-blue {
-  background: blue;
+  background: var(--blue);
 }
 .badge-accent {
   background: var(--accent-color);

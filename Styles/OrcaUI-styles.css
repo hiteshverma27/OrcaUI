@@ -7,6 +7,8 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+/* Grid layout for component library */
 .main-wrapper {
   display: grid;
   width: 100%;
@@ -16,6 +18,11 @@ body {
     "d c c c c"
     "d fn fn fn fn"
     "d f f f f";
+  }
+  /* Dark mode class */
+.dark-mode{
+    background-color: var(--dark-mode-color-2);
+    color: var(--white);
 }
 .logo {
   width: 10vh;
@@ -49,7 +56,7 @@ body {
   height: 20vh;
   margin: 0;
   z-index: 9;
-  color: white;
+  color: var(--white);
   width: 100%;
 }
 .footer-navigation {
@@ -73,12 +80,13 @@ body {
   border-radius: 5px;
 }
 .sidebar-item:hover {
-  background-color: rgba(211, 211, 211, 0.404);
+  background-color: var(--sidebar-item-hover);
   cursor: pointer;
   transition: 0.3s;
 }
 .list-item-active {
-  background-color: lightgray;
+  background-color: var(--lightgray);
+  color: var(--accent-color);
 }
 .sidebar-heading {
   text-align: left;
@@ -104,7 +112,7 @@ ul li {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: var(--black);
 }
 .example-box {
   width: 100%;
@@ -122,7 +130,7 @@ a {
   width: 7rem;
 }
 .logo-heading {
-  color: white;
+  color: var(--white);
   padding-left: 1rem;
   display: block;
 }
@@ -146,7 +154,7 @@ code,
   padding: 0rem 1rem;
 }
 .nav-links {
-  color: white;
+  color: var(--white);
 }
 .nav-link-items:hover {
   color: var(--accent-color);
@@ -157,8 +165,8 @@ code,
 .footer-links:hover {
   color: var(--accent-color);
 }
-.menu-icon:hover {
-  background-color: #3f3c3c;
+.menu-icon:hover, .theme-icon:hover{
+  background-color: var(--menu-icon-hover);
   border-radius: 50%;
   scale: 1.1;
   transition: 0.3s;
@@ -168,7 +176,7 @@ code,
   padding: 1rem;
   border-radius: 50%;
   height: 100%;
-  color: white;
+  color: var(--white);
 }
 .footer-navigation button {
   border-radius: 3px;
@@ -178,7 +186,7 @@ code,
   border-radius: 3px;
   transition: 0.5s ease-in-out;
   transform: translateX(-1rem);
-  color: white;
+  color: var(--white);
   scale: 1.05;
 }
 .footer-navigation .footer-nav-next:hover {
@@ -186,18 +194,16 @@ code,
   border-radius: 3px;
   transition: 0.5s ease-in-out;
   transform: translateX(1rem);
-  color: white;
+  color: var(--white);
   scale: 1.05;
 }
 .main-content-index {
   height: 87vh;
-  /* background-color: lightseagreen; */
   width: 90%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* transition: ease-in-out 1s; */
 }
 .index-heading {
   text-align: center;
@@ -217,7 +223,7 @@ code,
   background-color: var(--accent-color);
   transition: ease-in-out 0.5s;
   transform: translateX(1rem);
-  color: white;
+  color: var(--white);
   scale: 1.1;
 }
 .index-center-logo {

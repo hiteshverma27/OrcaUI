@@ -10,6 +10,7 @@
     <meta name="author" content="Hitesh Verma" />
     <meta name="Description" content="A variety of badges to choose from." />
     <script src="/JS/toggle.js" defer></script>
+    <script src="/JS/theme-selector.js" defer></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7RGFXZS8P"></script>
 <script>
@@ -27,7 +28,7 @@
   </head>
 
   <body>
-    <div class="main-wrapper">
+    <div class="main-wrapper dark-mode" id="main-wrapper">
       <header class="header">
         <div class="logo-container mx-3">
           <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
@@ -46,7 +47,9 @@
           </a>
           <h2 class="logo-heading">Orca UI</h2>
         </div>
-        <div class="nav-links mx-5">
+        <div class="nav-links mx-5 flex-center-center">
+          <span class="material-icons icon-sm cursor-pointer" id="light-mode">light_mode</span>
+          <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
           <a
             class="mx-3 nav-link-items py-2 px- font-600"
             href="/Pages/installation.html"
@@ -146,11 +149,11 @@
             class="footer-nav"
             src="/Assests/arrow_back_ios_new_black_24dp.svg"
             alt="previous section"
-          /><a href="/Pages/lists.html">Lists</a>
+          /><a href="/Pages/lists.html" class="color-accent">Lists</a>
         </button>
         <p>Explore more components</p>
         <button class="flex-center-center mr-4 p-2 footer-nav-next">
-          <a href="/Pages/navigation.html">Navigation</a>
+          <a href="/Pages/navigation.html" class="color-accent">Navigation</a>
           <img
             class="footer-nav"
             src="/Assests/arrow_forward_ios_black_24dp.svg"

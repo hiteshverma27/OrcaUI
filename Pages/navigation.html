@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/Styles/main.css" />
     <meta name="author" content="Hitesh Verma" />
     <meta name="Description" content="A variety of badges to choose from." />
+    <script src="/JS/theme-selector.js" defer></script>
     <script src="/JS/toggle.js" defer></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7RGFXZS8P"></script>
@@ -27,7 +28,7 @@
   </head>
 
   <body>
-    <div class="main-wrapper">
+    <div class="main-wrapper dark-mode" id="main-wrapper">
       <header class="header">
         <div class="logo-container mx-3">
           <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
@@ -46,7 +47,9 @@
           </a>
           <h2 class="logo-heading">Orca UI</h2>
         </div>
-        <div class="nav-links mx-5">
+        <div class="nav-links mx-5 flex-center-center">
+          <span class="material-icons icon-sm cursor-pointer" id="light-mode">light_mode</span>
+          <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
           <a
             class="mx-3 nav-link-items py-2 px- font-600"
             href="/Pages/installation.html"
@@ -118,7 +121,7 @@
         <div class="example-box my-4">
             <nav class="flex-space_between-center w-100per px-2 bg-white">
                 <a href="#">
-                    <h3>Brand Logo</h3>
+                    <h3 class="color-black">Brand Logo</h3>
                 </a>
                 <input type="text" class="input w-40per" placeholder="Search">
                 <ul class="flex-space_between-center">
@@ -146,11 +149,11 @@
             class="footer-nav"
             src="/Assests/arrow_back_ios_new_black_24dp.svg"
             alt="previous section"
-          /><a href="/Pages/modal.html">Modal</a>
+          /><a href="/Pages/modal.html" class="color-accent">Modal</a>
         </button>
         <p>Explore more components</p>
         <button class="flex-center-center mr-4 p-2 footer-nav-next">
-          <a href="/Pages/slider.html">Slider</a>
+          <a href="/Pages/slider.html" class="color-accent">Slider</a>
           <img
             class="footer-nav"
             src="/Assests/arrow_forward_ios_black_24dp.svg"

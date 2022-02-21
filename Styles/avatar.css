@@ -4,11 +4,6 @@
   justify-content: center;
   align-items: center;
 }
-/* .avatar-size-1{
-    width: var(--s2);
-    height: var(--s2);
-    font-size: var(--s1);
-} */
 .avatar-size-1 {
   width: var(--s4);
   height: var(--s4);

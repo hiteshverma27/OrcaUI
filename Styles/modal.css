@@ -1,7 +1,7 @@
 .modal{
     border-radius: 0.5rem;
-    outline: 2px solid lightgray;
-    background-color: white;
+    outline: 2px solid var(--lightgrey);
+    background-color: var(--white);
     box-shadow: var(--box-shadow);
     
 }
@@ -15,8 +15,8 @@
 }
 .modal-center{
     border-radius: 0.5rem;
-    outline: 2px solid lightgray;
-    background-color: white;
+    outline: 2px solid var(--lightgrey);
+    background-color: var(--white);
     box-shadow: var(--box-shadow);
     position: fixed;
     left: 50%;

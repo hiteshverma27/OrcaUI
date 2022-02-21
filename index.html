@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/Styles/OrcaUI-styles.css">
     <link rel="stylesheet" href="/Styles/main.css">
     <link rel="shortcut icon" href="/Assests/logo-rotated.svg" type="image/x-icon">
+    <script src="/JS/theme-selector.js" defer></script>
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7RGFXZS8P"></script>
 <script>
@@ -24,7 +26,7 @@
 </head>
 
 <body>
-    <div class="main-index-wrapper">
+    <div class="main-index-wrapper dark-mode" id="main-wrapper">
         <header class="header">
             <div class="logo-container mx-3">
                 <svg class="logo" width="242" height="213" viewBox="0 0 242 213" fill="white"
@@ -34,7 +36,9 @@
                 </svg>
                 <h2 class="logo-heading">Orca UI</h2>
             </div>
-            <div class="nav-links mx-5">
+            <div class="nav-links mx-5 flex-center-center">
+                <span class="material-icons icon-sm cursor-pointer" id="light-mode">light_mode</span>
+          <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/installation.html">Installation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/alert.html">Documentation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="https://github.com/hiteshverma27"
@@ -52,7 +56,7 @@
             <p class="index-heading"> Build your projects faster with the power of component classes and flexiblity of
                 utility classes.</p>
                 <a href="/Pages/installation.html">
-                    <button class="get-started-btn flex-center-center">
+                    <button class="get-started-btn flex-center-center color-accent" id="get-started-btn">
                 Get started <span class="material-icons icon-sm">arrow_forward_ios</span></button>
         </a>
         </div>
