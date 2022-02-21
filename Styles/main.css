@@ -12,6 +12,7 @@
 @import "/Styles/modal.css";
 @import "/Styles/navigation.css";
 @import "/Styles/snackbar.css";
+@import "/Styles/rating.css";
 
 /* **** Utilities **** */
 @import "/Utilities/typography.css";
@@ -23,7 +24,7 @@
 @import "/Utilities/height.css";
 @import "/Utilities/width.css";
 @import "/Utilities/image-properties.css";
-@import "/Utilities/font.css";
+@import "/Utilities/text-utility.css";
 
 /* **** Google material icons **** */
 
