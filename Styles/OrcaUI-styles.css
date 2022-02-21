@@ -200,7 +200,7 @@ code,
   scale: 1.05;
 }
 .main-content-index {
-  height: 87vh;
+  height: max-content;
   width: 90%;
   margin: auto;
   display: flex;
