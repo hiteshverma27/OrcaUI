@@ -12,6 +12,7 @@
     <meta name="Description" content="A variety of badges to choose from." />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <script src="/JS/toggle.js" defer></script>
+    <script src="/JS/theme-selector.js" defer></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
     <link rel="shortcut icon" href="/Assests/logo-rotated.svg" type="image/x-icon" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -26,7 +27,7 @@
 </head>
 
 <body>
-    <div class="main-wrapper">
+    <div class="main-wrapper dark-mode" id="main-wrapper">
         <header class="header">
             <div class="logo-container mx-3">
                 <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
@@ -75,7 +76,9 @@
                 </a>
                 <h2 class="logo-heading">Orca UI</h2>
             </div>
-            <div class="nav-links mx-5">
+            <div class="nav-links mx-5 flex-center-center">
+                <span class="material-icons icon-sm cursor-pointer" id="light-mode">light_mode</span>
+                <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/installation.html">Installation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/avatar.html">Documentation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="https://github.com/hiteshverma27"
@@ -162,11 +165,11 @@
         my-3">
         <button class="flex-center-center ml-4 p-2 footer-nav-prev">
             <img class="footer-nav" src="/Assests/arrow_back_ios_new_black_24dp.svg" alt="previous section" /><a
-            href="/Pages/card.html">Card</a>
+            href="/Pages/card.html" class="color-accent">Card</a>
         </button>
         <p>Explore more components</p>
         <button class="flex-center-center p-2 mr-4 footer-nav-next">
-            <a href="/Pages/input.html">Input</a>
+            <a href="/Pages/input.html" class="color-accent">Input</a>
             <img class="footer-nav" src="/Assests/arrow_forward_ios_black_24dp.svg" alt="badge" />
         </button>
         </div>

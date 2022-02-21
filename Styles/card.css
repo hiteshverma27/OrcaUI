@@ -4,24 +4,24 @@
     justify-content: space-between;
     height: 32rem;
     width: 18rem;
-    background-color: white;
+    background-color: var(--white);
     padding: 0.5rem;
-    border: 2px solid lightgray;
+    border: 2px solid var(--lightgrey);
 }
 .card-v:hover{
-    box-shadow: 0px 3px 6px 0px #51555f7d;
+    box-shadow: var(--box-shadow);
     transition: ease-in-out 0.2s;
 }
 .card-v button{
     background-color: var(--btn-color-confirm);
-    color: white;
+    color: var(--white);
 }
 .card-v button:hover{
     background-color: var(--btn-color-confirm-hover);
 }
 .card-rating{
-    background-color: #388E3C;
-    color: white;
+    background-color: var(--card-rating-color);
+    color: var(--white);
     display: flex;
     width: 3rem;
     height: 1.8rem;
@@ -38,7 +38,7 @@
     padding: 1rem 0;
 }
 .card-discount{
-    color: #388E3C;
+    color: var(--card-rating-color);
     font-size: small;
     font-weight: bold;
 }
@@ -56,17 +56,17 @@
 .card-badge-icon:hover{
     transform: scale(1.1);
     transition: ease-in-out 0.2s;
-    color: red;
+    color: var(--red);
 }
 .card-badge-icon{
-    background-color: lightgray;
+    background-color: var(--lightgrey);
     padding: 0.5rem;
     border-radius: 50%;
     position: absolute;
     right: 0;
 }
 .card-overlay{
-    background-color: lightgrey;
+    background-color: var(--lightgrey);
     position: absolute;
     padding: 1rem;
     width: 17rem;
@@ -81,15 +81,15 @@
     }
     
 .card-overlay-text{
-    color: red;
+    color: var(--red);
     font-weight: bolder;
 }
 .card-horizontal{
     height: calc(3 * 9rem);
     width: calc(3 * 16rem);
     display: grid;
-    border: 2px solid lightgrey;
-    background-color: white;
+    border: 2px solid var(--lightgrey);
+    background-color: var(--white);
     padding: 1rem;
     grid-template-areas:
     "img des"
@@ -124,11 +124,11 @@
 }
 .card-horizontal:hover{
     transition: ease-in-out .2s;
-    box-shadow: 0px 3px 6px 0px #51555f7d;
+    box-shadow:var(--box-shadow);
 }
 .card-h-badge{
     padding: .5rem;
-    background-color: lightgray;
+    background-color: var(--lightgrey);
     position: absolute  ;
     border-radius: 50%;
     margin-left: auto;
@@ -142,7 +142,7 @@
 .card-h-badge:hover {
     transform: scale(1.1);
     transition: ease-in-out .2s;
-    color: red;
+    color: var(--red);
 }
 
 

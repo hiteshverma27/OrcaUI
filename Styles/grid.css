@@ -1,13 +1,13 @@
 .grid-2{
     display: grid;
-    background-color: lightgray;
+    background-color: var(--lightgray);
     grid-gap: 2rem;
     justify-content: center;
     grid-template-columns: repeat(2, 16rem);
 }
 .grid-3{
     display: grid;
-    background-color: lightgray;
+    background-color: var(--lightgray);
     grid-gap: 2rem;
     justify-content: center;
     grid-template-columns: repeat(3, 16rem);
@@ -23,6 +23,6 @@
     background-color: cadetblue;
     min-height: 9rem;
     min-width: 16rem;
-    outline:  2px solid black;
+    outline:  2px solid var(--black);
     font-weight: bolder;
 }

@@ -12,6 +12,7 @@
     <meta name="Description" content="A variety of avatar to choose from.">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="/JS/toggle.js" defer></script>
+    <script src="/JS/theme-selector.js" defer></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="shortcut icon" href="/Assests/logo-rotated.svg" type="image/x-icon">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -26,7 +27,7 @@
 </head>
 
 <body>
-    <div class="main-wrapper">
+    <div class="main-wrapper dark-mode" id="main-wrapper">
         <header class="header">
             <div class="logo-container mx-3">
                 <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
@@ -76,7 +77,9 @@
                 </a>
                 <h2 class="logo-heading"> Orca UI</h2>
             </div>
-            <div class="nav-links mx-5">
+            <div class="nav-links mx-5 flex-center-center">
+                <span class="material-icons icon-sm cursor-pointer theme-icon p-1" id="light-mode">light_mode</span>
+                <span class="material-icons icon-sm cursor-pointer theme-icon p-1" id="dark-mode">dark_mode</span>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/installation.html">Installation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/avatar.html">Documentation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="https://github.com/hiteshverma27"
@@ -124,7 +127,8 @@
             <h1 class="my-2">Rating</h1>
             <hr>
             <p>A rating component is a graphical representation of review for a product or service and is very
-                infomative tool to make clear judgements and to apply filters. This helps the user to quickly sort from the collection of products.
+                infomative tool to make clear judgements and to apply filters. This helps the user to quickly sort from
+                the collection of products.
             </p>
             <hr>
             <h3 class="my-2">How to use</h3>
@@ -140,39 +144,39 @@
             </div>
             <div class="example-box flex-col my-4">
                 <div class="flex-space_between-center">
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star_border</span>
-                    <span class="material-icons icon-sm">star_border</span>
-                    <span class="material-icons icon-sm">star_border</span>
-                    <span class="material-icons icon-sm">star_border</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
                 </div>
                 <div class="flex-space_between-center">
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star_border</span>
-                    <span class="material-icons icon-sm">star_border</span>
-                    <span class="material-icons icon-sm">star_border</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
                 </div>
                 <div class="flex-space_between-center">
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star_border</span>
-                    <span class="material-icons icon-sm">star_border</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
                 </div>
                 <div class="flex-space_between-center">
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star_border</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star_border</span>
                 </div>
                 <div class="flex-space_between-center">
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
-                    <span class="material-icons icon-sm">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
+                    <span class="material-icons icon-sm color-black">star</span>
                 </div>
             </div>
             <hr>
@@ -181,10 +185,11 @@
                     my-3">
             <button class="flex-center-center ml-4 p-2 footer-nav-prev"><img class="footer-nav"
                     src="/Assests/arrow_back_ios_new_black_24dp.svg" alt="previous section"><a
-                    href="/Pages/navigation.html">Navigation</a></button>
+                    href="/Pages/navigation.html" class="color-accent">Navigation</a></button>
             <p>Explore more components</p>
-            <button class="flex-center-center mr-4 p-2 footer-nav-next"><a href="/Pages/avatar.html">Avatar</a> <img
-                    class="footer-nav" src="/Assests/arrow_forward_ios_black_24dp.svg" alt="badge"></button>
+            <button class="flex-center-center mr-4 p-2 footer-nav-next"><a href="/Pages/avatar.html"
+                    class="color-accent">Avatar</a> <img class="footer-nav"
+                    src="/Assests/arrow_forward_ios_black_24dp.svg" alt="badge"></button>
         </div>
         <footer class="footer flex-center-center flex-col">
             <div class="mb-3 mr-2">Made by Hitesh</div>

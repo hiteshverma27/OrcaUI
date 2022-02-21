@@ -12,6 +12,7 @@
     <meta name="Description" content="A variety of avatar to choose from.">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="/JS/toggle.js" defer></script>
+    <script src="/JS/theme-selector.js" defer></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/Assests/logo-rotated.svg" type="image/x-icon">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -26,7 +27,7 @@
 </head>
 
 <body>
-    <div class="main-wrapper">
+    <div class="main-wrapper dark-mode" id="main-wrapper">
         <header class="header">
             <div class="logo-container mx-3">
                 <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
@@ -40,7 +41,9 @@
                 </a>
                 <h2 class="logo-heading"> Orca UI</h2>
             </div>
-            <div class="nav-links mx-5">
+            <div class="nav-links mx-5 flex-center-center">
+                <span class="material-icons icon-sm cursor-pointer" id="light-mode">light_mode</span>
+                <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/installation.html">Installation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/avatar.html">Documentation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="https://github.com/hiteshverma27"
@@ -105,7 +108,6 @@
                 <img src="https://i.pravatar.cc/300?img=2" class="avatar avatar-size-2">
                 <img src="https://i.pravatar.cc/300?img=3" class="avatar avatar-size-3">
                 <img src="https://i.pravatar.cc/300?img=4" class="avatar avatar-size-4">
-                <!-- <img src="https://i.pravatar.cc/300?img=5" class="avatar avatar-size-5"> -->
             </div>
             <div class="example-box my-4">
                 <iframe
@@ -122,7 +124,6 @@
                 <img src="https://i.pravatar.cc/300?img=2" class="avatar avatar-size-2 avatar-square-sm">
                 <img src="https://i.pravatar.cc/300?img=3" class="avatar avatar-size-3 avatar-square-sm">
                 <img src="https://i.pravatar.cc/300?img=4" class="avatar avatar-size-4 avatar-square-sm">
-                <!-- <img src="https://i.pravatar.cc/300?img=5" class="avatar avatar-size-5 avatar-square-sm"> -->
             </div>
             <div class="example-box my-4">
                 <iframe
@@ -138,7 +139,6 @@
                 <img src="https://i.pravatar.cc/300?img=2" class="avatar avatar-size-2 avatar-square-md">
                 <img src="https://i.pravatar.cc/300?img=3" class="avatar avatar-size-3 avatar-square-md">
                 <img src="https://i.pravatar.cc/300?img=4" class="avatar avatar-size-4 avatar-square-md">
-                <!-- <img src="https://i.pravatar.cc/300?img=5" class="avatar avatar-size-5 avatar-square-md"> -->
             </div>
             <div class="example-box my-4">
                 <iframe
@@ -154,7 +154,6 @@
                 <img src="https://i.pravatar.cc/300?img=2" class="avatar avatar-size-2 avatar-square-lg">
                 <img src="https://i.pravatar.cc/300?img=3" class="avatar avatar-size-3 avatar-square-lg">
                 <img src="https://i.pravatar.cc/300?img=4" class="avatar avatar-size-4 avatar-square-lg">
-                <!-- <img src="https://i.pravatar.cc/300?img=5" class="avatar avatar-size-5 avatar-square-lg"> -->
             </div>
             <div class="example-box my-4">
                 <iframe
@@ -169,16 +168,15 @@
                 <div class="avatar avatar-size-2 bg-accent flex-center-center bold">CD</div>
                 <div class="avatar avatar-size-3 bg-accent flex-center-center bold">EF</div>
                 <div class="avatar avatar-size-4 bg-accent flex-center-center bold">GH</div>
-                <!-- <div class="avatar avatar-size-5 bg-accent flex-center-center bold">KL</div> -->
             </div>
             <hr>
         </div>
         <div class="footer-navigation flex-space_between-center px-10 my-3">
             <button class="flex-center-center ml-4 p-2 footer-nav-prev"><img class="footer-nav"
                     src="/Assests/arrow_back_ios_new_black_24dp.svg" alt="previous section"><a
-                    href="/Pages/alert.html">Alert</a></button>
+                    href="/Pages/alert.html" class="color-accent">Alert</a></button>
             <p>Explore more components</p>
-            <button class="flex-center-center mr-4 p-2 footer-nav-next"><a href="/Pages/badge.html">Badge</a> <img
+            <button class="flex-center-center mr-4 p-2 footer-nav-next"><a href="/Pages/badge.html" class="color-accent">Badge</a> <img
                     class="footer-nav" src="/Assests/arrow_forward_ios_black_24dp.svg" alt="badge"></button>
         </div>
         <footer class="footer flex-center-center flex-col">

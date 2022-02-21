@@ -1,12 +1,12 @@
 .bg-accent{
     background-color: var(--accent-color);
-    color: white;
+    color: var(--white);
 }
 .bg-white{
     background-color: var(--white);
 }
 .bg-black{
-    background-color: black;
+    background-color: var(--black);
 }
 .bold{
     font-weight: bolder;
@@ -15,7 +15,22 @@
     color: var(--accent-color);
 }
 .color-fill-black{
-    fill: black;
+    fill: var(--black);
+}
+.color-black{
+    color: var(--black);
+}
+.color-white{
+    color: var(--white);
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.color-red{
+    color: var(--red);
+}
+.color-accent{
+    color: var(--accent-color);
 }
 /* ********* Position classes ********** */
 
