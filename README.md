@@ -21,6 +21,13 @@ Include this link in your ```<head>``` tag and you are good to go
     <link rel="stylesheet" href="https://orcaui.netlify.app/styles/main.css"/>
 
 ```
+
+## Persistent Dark Mode
+
+![dark-mode-demo](https://user-images.githubusercontent.com/87027579/154998535-af9fdfd5-5ba8-4352-b128-69f04716ebdb.png)
+
+
+
 ## Utility classes
 
 Orca UI comes with a wide selection of utility classes which are easy to use and remember for example
