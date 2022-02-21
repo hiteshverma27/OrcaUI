@@ -33,6 +33,7 @@ body {
   top: 0;
   grid-area: h;
   height: 13vh;
+  min-height: 10rem;
   background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
@@ -180,6 +181,7 @@ code,
 }
 .footer-navigation button {
   border-radius: 3px;
+  color: var(--accent-color);
 }
 .footer-navigation .footer-nav-prev:hover {
   background-color: var(--accent-color);
@@ -246,6 +248,9 @@ ol li {
   :root{
     font-size: 1.6rem;
   }
+  html{
+    width: 100vw;
+  }
   .header{
     height: 10rem;
   }
@@ -280,5 +285,12 @@ ol li {
   .main-wrapper .sidebar{
     display: none;
     width: 100%;
+    z-index: 200;
+    position: sticky;
+    top: 10rem;
+    background-color: white;
+  }
+  .logo-container .logo-heading{
+    display: none;
   }
 }
