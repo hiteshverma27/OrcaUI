@@ -24,32 +24,32 @@ button {
 /* headings */
 h1 {
   font-size: var(--s6);
-  line-height: 6.4rem;
+  line-height: var(--s8);
 }
 
 h2 {
-  font-size: 3.2rem;
-  line-height: 4rem;
+  font-size: var(--s4);
+  line-height: var(--s5);
 }
 
 h3 {
-  font-size: 2.4rem;
-  line-height: 3.2rem;
+  font-size: var(--s3);
+  line-height: var(--s4);
 }
 
 h4 {
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  font-size: var(--s2);
+  line-height: var(--s3);
 }
 
 h5 {
-  font-size: 1rem;
-  line-height: 1.6rem;
+  font-size: var(--s1);
+  line-height: var(--s2);
 }
 
 h6 {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
+  font-size: var(--s1);
+  line-height: var(--s2);
 }
 
 /* media */
