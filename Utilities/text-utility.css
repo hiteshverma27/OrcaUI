@@ -45,7 +45,7 @@
     color: var(--white);
 }
 .font-color-grey{
-    color: var(-lightgrey);
+    color: var(--lightgrey);
 }
 
 /* ********** Font Size ********** */
