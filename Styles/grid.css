@@ -1,13 +1,13 @@
 .grid-2{
     display: grid;
-    background-color: var(--lightgray);
+    background-color: var(--lightgrey);
     grid-gap: 2rem;
     justify-content: center;
     grid-template-columns: repeat(2, 16rem);
 }
 .grid-3{
     display: grid;
-    background-color: var(--lightgray);
+    background-color: var(--lightgrey);
     grid-gap: 2rem;
     justify-content: center;
     grid-template-columns: repeat(3, 16rem);

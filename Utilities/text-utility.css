@@ -42,10 +42,10 @@
 }
 
 .font-color-white{
-    color: white;
+    color: var(--white);
 }
 .font-color-grey{
-    color: lightgray;
+    color: var(-lightgrey);
 }
 
 /* ********** Font Size ********** */

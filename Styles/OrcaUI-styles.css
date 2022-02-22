@@ -86,7 +86,7 @@ body {
   transition: 0.3s;
 }
 .list-item-active {
-  background-color: var(--lightgray);
+  background-color: var(--lightgrey);
   color: var(--accent-color);
 }
 .sidebar-heading {
@@ -150,7 +150,7 @@ a {
 }
 code,
 .code {
-  background-color: var(--lightgray);
+  background-color: var(--lightgrey);
   border-radius: 2px;
   padding: 0rem 1rem;
 }
