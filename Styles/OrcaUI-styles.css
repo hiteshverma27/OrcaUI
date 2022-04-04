@@ -87,7 +87,6 @@ body {
 }
 .list-item-active {
   background-color: var(--lightgrey);
-  color: var(--accent-color);
 }
 .sidebar-heading {
   text-align: left;
@@ -243,6 +242,18 @@ ol li {
   font-size: var(--s2);
 }
 
+.header-hamburger{
+  position: sticky;
+  top: 0;
+  grid-area: h;
+  height: 13vh;
+  min-height: 10rem;
+  background-color: var(--dark-mode-color-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: ease-in-out 1s;
+}
 
 @media screen and (max-width:768px){
   :root{

@@ -16,14 +16,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/Assests/logo-rotated.svg" type="image/x-icon">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T7RGFXZS8P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7RGFXZS8P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-T7RGFXZS8P');
-</script>
+        gtag('config', 'G-T7RGFXZS8P');
+    </script>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
             </div>
             <div class="nav-links mx-5 flex-center-center">
                 <span class="material-icons icon-sm cursor-pointer" id="light-mode">light_mode</span>
-          <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
+                <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/installation.html">Installation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/avatar.html">Documentation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="https://github.com/hiteshverma27"
@@ -62,11 +62,11 @@
                 </li>
             </ul>
             <h3 class="sidebar-heading"><a href="/Pages/grid.html">Layout</a></h3>
-        <ul>
-          <li>
-            <a class="sidebar-item" href="/Pages/grid.html">Grid </a>
-          </li>
-        </ul>
+            <ul>
+                <li>
+                    <a class="sidebar-item" href="/Pages/grid.html">Grid </a>
+                </li>
+            </ul>
             <h3 class="sidebar-heading"><a href="/Pages/alert.html">Components</a></h3>
             <ul>
                 <li>
@@ -75,6 +75,7 @@
                     <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
                     <a class="sidebar-item" href="/Pages/button.html">Button</a>
                     <a class="sidebar-item" href="/Pages/card.html">Card</a>
+                    <a class="sidebar-item" href="/Pages/hamburger-navigation.html">Hamburger Nav</a>
                     <a class="sidebar-item" href="/Pages/input.html">Input</a>
                     <a class="sidebar-item" href="/Pages/image.html">Image</a>
                     <a class="sidebar-item" href="/Pages/lists.html">Lists</a>
@@ -91,23 +92,26 @@
             <h1 class="my-2">Installation</h1>
             <p class="my-3">Installing <strong class="text-color-accent">Orca</strong> is quick and simple, just paste
                 this link in your HTML <code>head</code> tag and you can start using component and utility classes right
-                into your HTML. To use classes add class names in the <code>class</code>attribute in the element you wish to style.</p>
+                into your HTML. To use classes add class names in the <code>class</code>attribute in the element you
+                wish to style.</p>
             <div class="example-box my-4">
                 <iframe title="code snippet"
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Forcaui.netlify.app%252Fstyles%252Fmain.css%2522%252F%253E%250A"
-  style="width: 100%; height: 95px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Forcaui.netlify.app%252Fstyles%252Fmain.css%2522%252F%253E%250A"
+                    style="width: 100%; height: 95px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
             <h3 class="my-2">Now you are good to go! Enjoy your powers</h3>
             <svg class="m-auto" width="40%" height="auto" viewBox="0 0 242 213" fill="#00B2CA"
-                xmlns="http://www.w3.org/2000/svg" >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M94.3929 47.9256C94.3025 49.6725 95.4292 51.7916 98.5712 55.7838C103.334 61.9722 103.948 65.0436 101.009 67.3987C100.091 68.2269 96.0985 71.3689 92.1063 74.511C71.3618 91.0906 57.907 111.156 54.2051 131.245C52.5939 140.143 53.0819 154.268 55.2897 162.041C56.2209 165.283 56.9712 172.02 57.0061 176.984C56.9712 195.237 59.0317 207.846 62.3413 209.597C64.8807 210.965 66.0497 207.625 68.5805 192.575C71.6811 173.485 74.6112 163.659 78.8424 157.559C80.6574 155.008 81.9314 152.292 81.6028 151.674C81.3211 151.144 79.193 150.124 77.0291 149.463C74.9122 148.889 72.1906 147.392 70.8627 146.172C68.8474 144.299 68.6954 143.587 69.5637 140.747C70.6801 137.096 73.5413 135.235 76.9994 135.774C78.3462 135.964 83.7671 138.065 89.0583 140.348C94.4379 142.585 101.611 145 105.252 145.669C108.757 146.297 111.961 147.424 112.248 148.178C113.163 150.749 105.315 160.698 96.0285 168.581C93.5317 170.701 94.0796 174.714 97.1354 177.053C99.6917 179.091 111.051 178.941 119.453 176.852C127.632 174.768 144.944 165.79 152.663 159.646C155.513 157.338 161.243 152.14 165.478 147.963C174.866 138.78 176.108 138.347 197.671 134.809C211.168 132.503 214.546 131.613 221.927 128.028C229.532 124.438 230.85 123.51 233.308 119.825C238.488 112.314 238.225 110.755 229.822 94.9499C224.194 84.5781 221.211 79.8214 217.487 75.799C210.726 68.4081 197.79 59.2035 189.565 55.8754C175.602 50.2754 158.027 48.7473 142.047 51.9212L134.568 53.4058L129.138 49.1578C126.13 46.9069 121.409 44.2068 118.564 43.115C108.451 39.4316 94.3412 42.2902 94.3929 47.9256ZM163.806 93.6958C176.053 93.2995 188.739 99.692 194.657 109.117C197.592 113.786 197.692 114.186 196.286 118.784C195.045 122.841 194.309 123.799 190.6 125.771C184.726 128.781 178.29 129.032 169.1 126.444C142.25 118.974 138.276 94.2459 163.806 93.6958Z" />
             </svg>
             <hr>
             <h3 class="my-2">Stuck somewhere?</h3>
-            <p>If you are facing any problem you can create an issue on <a href="https://github.com/hiteshverma27/OrcaUI" style="text-decoration: underline;">Github</a> or contact me on via below given links.</p>
+            <p>If you are facing any problem you can create an issue on <a
+                    href="https://github.com/hiteshverma27/OrcaUI" style="text-decoration: underline;">Github</a> or
+                contact me on via below given links.</p>
         </div>
         <div class="footer-navigation flex-space_between-center px-10 my-3">
             <button class="flex-center-center ml-4 p-2 footer-nav-prev"><img class="footer-nav"

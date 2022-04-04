@@ -1,189 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modal | OrcaUI</title>
-    <link rel="stylesheet" href="/Styles/OrcaUI-styles.css" />
-    <link rel="stylesheet" href="/Styles/main.css" />
-    <meta name="author" content="Hitesh Verma" />
-    <meta name="Description" content="A variety of badges to choose from." />
-    <script src="/JS/toggle.js" defer></script>
-    <script src="/JS/theme-selector.js" defer></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T7RGFXZS8P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-T7RGFXZS8P');
-</script>
-    <link
-      rel="shortcut icon"
-      href="/Assests/logo-rotated.svg"
-      type="image/x-icon"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modal | OrcaUI</title>
+  <link rel="stylesheet" href="/Styles/OrcaUI-styles.css" />
+  <link rel="stylesheet" href="/Styles/main.css" />
+  <meta name="author" content="Hitesh Verma" />
+  <meta name="Description" content="A variety of badges to choose from." />
+  <script src="/JS/toggle.js" defer></script>
+  <script src="/JS/theme-selector.js" defer></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7RGFXZS8P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  <body>
-    <div class="main-wrapper dark-mode" id="main-wrapper">
-      <header class="header">
-        <div class="logo-container mx-3">
-          <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
-          <a href="/index.html" alt="orca-logo">
-            <svg
-              class="logo"
-              width="242"
-              height="213"
-              viewBox="0 0 242 213"
-              fill="white"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M94.3929 47.9256C94.3025 49.6725 95.4292 51.7916 98.5712 55.7838C103.334 61.9722 103.948 65.0436 101.009 67.3987C100.091 68.2269 96.0985 71.3689 92.1063 74.511C71.3618 91.0906 57.907 111.156 54.2051 131.245C52.5939 140.143 53.0819 154.268 55.2897 162.041C56.2209 165.283 56.9712 172.02 57.0061 176.984C56.9712 195.237 59.0317 207.846 62.3413 209.597C64.8807 210.965 66.0497 207.625 68.5805 192.575C71.6811 173.485 74.6112 163.659 78.8424 157.559C80.6574 155.008 81.9314 152.292 81.6028 151.674C81.3211 151.144 79.193 150.124 77.0291 149.463C74.9122 148.889 72.1906 147.392 70.8627 146.172C68.8474 144.299 68.6954 143.587 69.5637 140.747C70.6801 137.096 73.5413 135.235 76.9994 135.774C78.3462 135.964 83.7671 138.065 89.0583 140.348C94.4379 142.585 101.611 145 105.252 145.669C108.757 146.297 111.961 147.424 112.248 148.178C113.163 150.749 105.315 160.698 96.0285 168.581C93.5317 170.701 94.0796 174.714 97.1354 177.053C99.6917 179.091 111.051 178.941 119.453 176.852C127.632 174.768 144.944 165.79 152.663 159.646C155.513 157.338 161.243 152.14 165.478 147.963C174.866 138.78 176.108 138.347 197.671 134.809C211.168 132.503 214.546 131.613 221.927 128.028C229.532 124.438 230.85 123.51 233.308 119.825C238.488 112.314 238.225 110.755 229.822 94.9499C224.194 84.5781 221.211 79.8214 217.487 75.799C210.726 68.4081 197.79 59.2035 189.565 55.8754C175.602 50.2754 158.027 48.7473 142.047 51.9212L134.568 53.4058L129.138 49.1578C126.13 46.9069 121.409 44.2068 118.564 43.115C108.451 39.4316 94.3412 42.2902 94.3929 47.9256ZM163.806 93.6958C176.053 93.2995 188.739 99.692 194.657 109.117C197.592 113.786 197.692 114.186 196.286 118.784C195.045 122.841 194.309 123.799 190.6 125.771C184.726 128.781 178.29 129.032 169.1 126.444C142.25 118.974 138.276 94.2459 163.806 93.6958Z"/>
-            </svg>
-          </a>
-          <h2 class="logo-heading">Orca UI</h2>
-        </div>
-        <div class="nav-links mx-5 flex-center-center">
-          <span class="material-icons icon-sm cursor-pointer" id="light-mode">light_mode</span>
-          <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
-          <a
-            class="mx-3 nav-link-items py-2 px- font-600"
-            href="/Pages/installation.html"
-            >Installation</a
-          >
-          <a
-            class="mx-3 nav-link-items py-2 px- font-600"
-            href="/Pages/avatar.html"
-            >Documentation</a
-          >
-          <a
-            class="mx-3 nav-link-items py-2 px- font-600"
-            href="https://github.com/hiteshverma27"
-            target="_blank"
-            >Github</a
-          >
-        </div>
-      </header>
-      <div class="sidebar">
-        <div class="sidebar-main-heading">Orca Design System</div>
-        <h3 class="sidebar-heading">
-            <a href="/Pages/installation.html">Get Started</a>
-        </h3>
-        <ul>
-            <li>
-              <a class="sidebar-item" href="/Pages/installation.html">Installation</a>
-              <a class="sidebar-item" href="/Pages/understand-orca.html">Understand Orca</a>
-            </li>
-        </ul>
-        <h3 class="sidebar-heading"><a href="/Pages/grid.html">Layout</a></h3>
-    <ul>
-      <li>
-        <a class="sidebar-item" href="/Pages/grid.html">Grid </a>
-      </li>
-    </ul>
-        <h3 class="sidebar-heading"><a href="/Pages/alert.html">Components</a></h3>
-        <ul>
-            <li>
-                <a class="sidebar-item" href="/Pages/alert.html">Alert</a>
-                <a class="sidebar-item" href="/Pages/avatar.html">Avatar</a>
-                <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
-                <a class="sidebar-item" href="/Pages/button.html">Button</a>
-                <a class="sidebar-item" href="/Pages/card.html">Card</a>
-                <a class="sidebar-item" href="/Pages/input.html">Input</a>
-                <a class="sidebar-item" href="/Pages/image.html">Image</a>
-                <a class="sidebar-item" href="/Pages/lists.html">Lists</a>
-                <a class="sidebar-item list-item-active" href="/Pages/modal.html">Modal</a>
-                <a class="sidebar-item" href="/Pages/navigation.html">Navigation</a>
-                <a class="sidebar-item" href="/Pages/rating.html">Rating</a>
-                <a class="sidebar-item" href="/Pages/slider.html">Slider</a>
-                <a class="sidebar-item" href="/Pages/snackbar.html">Snackbar</a>
-                <a class="sidebar-item" href="/Pages/text-utility.html">Text Utility</a>
-            </li>
-        </ul>
-    </div>
-      <div class="main-content">
-        <h1 class="my-2">Modal</h1>
-        <hr />
-        <p>
-            A modal is used to reveal critical information, show information without losing context, or when the system requires a user response. It can be used to ask user if he want to proceed before making some permanent changes like deleting media.
-        </p>
-        <hr />
-        <h3 class="my-2">Available types</h3>
-        <p>
-         As of now only simple modal is available, use <code>modal-center</code> to fix the modal in the center of the screen and more type of modal are coming up soon.
-        </p>
-        <hr />
-        <h3 class="my-2">Simple modal</h3>
-        <div class="example-box my-4">
-            <div class="modal color-black">
-                <div class="modal-heading p-2 pb-0">
-                    <h3>Delete file?</h3>
-                </div>
-                <div class="modal-text p-2 ">
-                    <p>Are you sure that you want to delete this file?</p>
-                </div>
-                <div class="modal-btn-cta">
-                    <button class="btn-primary-danger mx-1"><span class="material-icons icon-am">delete</span>Clear</button>
-                    <button class="btn-primary-confirm mx-1"><span class="material-icons icon-am">check</span>Confirm</button>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <h3 class="my-2">Code</h3>
-        <div class="example-box my-4">
-            <iframe title="code snippet"
-            src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-heading%2520p-2%2520pb-0%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EDelete%2520file%253F%253C%252Fh3%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-text%2520p-2%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EAre%2520you%2520sure%2520that%2520you%2520want%2520to%2520delete%2520this%2520file%253F%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btn-cta%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary-danger%2520mx-1%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Edelete%253C%252Fspan%253EClear%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary-confirm%2520mx-1%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Echeck%253C%252Fspan%253EConfirm%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="width: 987px; height: 314px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-            </iframe>
-        </div>
-        <hr>
+    gtag('config', 'G-T7RGFXZS8P');
+  </script>
+  <link rel="shortcut icon" href="/Assests/logo-rotated.svg" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="main-wrapper dark-mode" id="main-wrapper">
+    <header class="header">
+      <div class="logo-container mx-3">
+        <span class="material-icons-outlined icon-s6 menu-icon">menu</span>
+        <a href="/index.html" alt="orca-logo">
+          <svg class="logo" width="242" height="213" viewBox="0 0 242 213" fill="white"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M94.3929 47.9256C94.3025 49.6725 95.4292 51.7916 98.5712 55.7838C103.334 61.9722 103.948 65.0436 101.009 67.3987C100.091 68.2269 96.0985 71.3689 92.1063 74.511C71.3618 91.0906 57.907 111.156 54.2051 131.245C52.5939 140.143 53.0819 154.268 55.2897 162.041C56.2209 165.283 56.9712 172.02 57.0061 176.984C56.9712 195.237 59.0317 207.846 62.3413 209.597C64.8807 210.965 66.0497 207.625 68.5805 192.575C71.6811 173.485 74.6112 163.659 78.8424 157.559C80.6574 155.008 81.9314 152.292 81.6028 151.674C81.3211 151.144 79.193 150.124 77.0291 149.463C74.9122 148.889 72.1906 147.392 70.8627 146.172C68.8474 144.299 68.6954 143.587 69.5637 140.747C70.6801 137.096 73.5413 135.235 76.9994 135.774C78.3462 135.964 83.7671 138.065 89.0583 140.348C94.4379 142.585 101.611 145 105.252 145.669C108.757 146.297 111.961 147.424 112.248 148.178C113.163 150.749 105.315 160.698 96.0285 168.581C93.5317 170.701 94.0796 174.714 97.1354 177.053C99.6917 179.091 111.051 178.941 119.453 176.852C127.632 174.768 144.944 165.79 152.663 159.646C155.513 157.338 161.243 152.14 165.478 147.963C174.866 138.78 176.108 138.347 197.671 134.809C211.168 132.503 214.546 131.613 221.927 128.028C229.532 124.438 230.85 123.51 233.308 119.825C238.488 112.314 238.225 110.755 229.822 94.9499C224.194 84.5781 221.211 79.8214 217.487 75.799C210.726 68.4081 197.79 59.2035 189.565 55.8754C175.602 50.2754 158.027 48.7473 142.047 51.9212L134.568 53.4058L129.138 49.1578C126.13 46.9069 121.409 44.2068 118.564 43.115C108.451 39.4316 94.3412 42.2902 94.3929 47.9256ZM163.806 93.6958C176.053 93.2995 188.739 99.692 194.657 109.117C197.592 113.786 197.692 114.186 196.286 118.784C195.045 122.841 194.309 123.799 190.6 125.771C184.726 128.781 178.29 129.032 169.1 126.444C142.25 118.974 138.276 94.2459 163.806 93.6958Z" />
+          </svg>
+        </a>
+        <h2 class="logo-heading">Orca UI</h2>
       </div>
-      <div class="footer-navigation flex-space_between-center px-10 my-3">
-        <button class="flex-center-center ml-4 p-2 footer-nav-prev">
-          <img
-            class="footer-nav"
-            src="/Assests/arrow_back_ios_new_black_24dp.svg"
-            alt="previous section"
-          /><a href="/Pages/lists.html">Lists</a>
-        </button>
-        <p>Explore more components</p>
-        <button class="flex-center-center mr-4 p-2 footer-nav-next">
-          <a href="/Pages/navigation.html">Navigation</a>
-          <img
-            class="footer-nav"
-            src="/Assests/arrow_forward_ios_black_24dp.svg"
-            alt="badge"
-          />
-        </button>
+      <div class="nav-links mx-5 flex-center-center">
+        <span class="material-icons icon-sm cursor-pointer" id="light-mode">light_mode</span>
+        <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
+        <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/installation.html">Installation</a>
+        <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/avatar.html">Documentation</a>
+        <a class="mx-3 nav-link-items py-2 px- font-600" href="https://github.com/hiteshverma27"
+          target="_blank">Github</a>
       </div>
-      <footer class="footer flex-center-center flex-col">
-        <div class="mb-3 mr-2">Made by Hitesh</div>
-        <div class="socials">
-          <a
-            href="https://github.com/hiteshverma27"
-            target="_blank"
-            class="p-3 nav-link-items"
-            >Github</a
-          >
-          <a
-            href="https://twitter.com/hitesh27v"
-            target="_blank"
-            class="p-3 nav-link-items"
-            >Twitter</a
-          >
-          <a
-            href="https://www.linkedin.com/in/hitesh-verma-8727921b2/"
-            target="_blank"
-            class="p-3 nav-link-items"
-            >LinkedIn</a
-          >
-        </div>
-      </footer>
+    </header>
+    <div class="sidebar">
+      <div class="sidebar-main-heading">Orca Design System</div>
+      <h3 class="sidebar-heading">
+        <a href="/Pages/installation.html">Get Started</a>
+      </h3>
+      <ul>
+        <li>
+          <a class="sidebar-item" href="/Pages/installation.html">Installation</a>
+          <a class="sidebar-item" href="/Pages/understand-orca.html">Understand Orca</a>
+        </li>
+      </ul>
+      <h3 class="sidebar-heading"><a href="/Pages/grid.html">Layout</a></h3>
+      <ul>
+        <li>
+          <a class="sidebar-item" href="/Pages/grid.html">Grid </a>
+        </li>
+      </ul>
+      <h3 class="sidebar-heading"><a href="/Pages/alert.html">Components</a></h3>
+      <ul>
+        <li>
+          <a class="sidebar-item" href="/Pages/alert.html">Alert</a>
+          <a class="sidebar-item" href="/Pages/avatar.html">Avatar</a>
+          <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
+          <a class="sidebar-item" href="/Pages/button.html">Button</a>
+          <a class="sidebar-item" href="/Pages/card.html">Card</a>
+          <a class="sidebar-item" href="/Pages/hamburger-navigation.html">Hamburger Nav</a>
+          <a class="sidebar-item" href="/Pages/input.html">Input</a>
+          <a class="sidebar-item" href="/Pages/image.html">Image</a>
+          <a class="sidebar-item" href="/Pages/lists.html">Lists</a>
+          <a class="sidebar-item list-item-active" href="/Pages/modal.html">Modal</a>
+          <a class="sidebar-item" href="/Pages/navigation.html">Navigation</a>
+          <a class="sidebar-item" href="/Pages/rating.html">Rating</a>
+          <a class="sidebar-item" href="/Pages/slider.html">Slider</a>
+          <a class="sidebar-item" href="/Pages/snackbar.html">Snackbar</a>
+          <a class="sidebar-item" href="/Pages/text-utility.html">Text Utility</a>
+        </li>
+      </ul>
     </div>
-  </body>
+    <div class="main-content">
+      <h1 class="my-2">Modal</h1>
+      <hr />
+      <p>
+        A modal is used to reveal critical information, show information without losing context, or when the system
+        requires a user response. It can be used to ask user if he want to proceed before making some permanent changes
+        like deleting media.
+      </p>
+      <hr />
+      <h3 class="my-2">Available types</h3>
+      <p>
+        As of now only simple modal is available, use <code>modal-center</code> to fix the modal in the center of the
+        screen and more type of modal are coming up soon.
+      </p>
+      <hr />
+      <h3 class="my-2">Simple modal</h3>
+      <div class="example-box my-4">
+        <div class="modal color-black">
+          <div class="modal-heading p-2 pb-0">
+            <h3>Delete file?</h3>
+          </div>
+          <div class="modal-text p-2 ">
+            <p>Are you sure that you want to delete this file?</p>
+          </div>
+          <div class="modal-btn-cta">
+            <button class="btn-primary-danger mx-1"><span class="material-icons icon-am">delete</span>Clear</button>
+            <button class="btn-primary-confirm mx-1"><span class="material-icons icon-am">check</span>Confirm</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h3 class="my-2">Code</h3>
+      <div class="example-box my-4">
+        <iframe title="code snippet"
+          src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-heading%2520p-2%2520pb-0%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EDelete%2520file%253F%253C%252Fh3%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-text%2520p-2%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EAre%2520you%2520sure%2520that%2520you%2520want%2520to%2520delete%2520this%2520file%253F%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btn-cta%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary-danger%2520mx-1%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Edelete%253C%252Fspan%253EClear%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-primary-confirm%2520mx-1%2522%253E%253Cspan%2520class%253D%2522material-icons%2520icon-am%2522%253Echeck%253C%252Fspan%253EConfirm%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+          style="width: 987px; height: 314px; border:0; transform: scale(1); overflow:hidden;"
+          sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </div>
+      <hr>
+    </div>
+    <div class="footer-navigation flex-space_between-center px-10 my-3">
+      <button class="flex-center-center ml-4 p-2 footer-nav-prev">
+        <img class="footer-nav" src="/Assests/arrow_back_ios_new_black_24dp.svg" alt="previous section" /><a
+          href="/Pages/lists.html">Lists</a>
+      </button>
+      <p>Explore more components</p>
+      <button class="flex-center-center mr-4 p-2 footer-nav-next">
+        <a href="/Pages/navigation.html">Navigation</a>
+        <img class="footer-nav" src="/Assests/arrow_forward_ios_black_24dp.svg" alt="badge" />
+      </button>
+    </div>
+    <footer class="footer flex-center-center flex-col">
+      <div class="mb-3 mr-2">Made by Hitesh</div>
+      <div class="socials">
+        <a href="https://github.com/hiteshverma27" target="_blank" class="p-3 nav-link-items">Github</a>
+        <a href="https://twitter.com/hitesh27v" target="_blank" class="p-3 nav-link-items">Twitter</a>
+        <a href="https://www.linkedin.com/in/hitesh-verma-8727921b2/" target="_blank"
+          class="p-3 nav-link-items">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
