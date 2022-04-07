@@ -16,14 +16,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
     <link rel="shortcut icon" href="/Assests/logo-rotated.svg" type="image/x-icon" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T7RGFXZS8P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7RGFXZS8P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-T7RGFXZS8P');
-</script>
+        gtag('config', 'G-T7RGFXZS8P');
+    </script>
 </head>
 
 <body>
@@ -78,7 +78,7 @@
             </div>
             <div class="nav-links mx-5 flex-center-center">
                 <span class="material-icons icon-sm cursor-pointer" id="light-mode">light_mode</span>
-          <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
+                <span class="material-icons icon-sm cursor-pointer" id="dark-mode">dark_mode</span>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/installation.html">Installation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="/Pages/avatar.html">Documentation</a>
                 <a class="mx-3 nav-link-items py-2 px- font-600" href="https://github.com/hiteshverma27"
@@ -97,11 +97,11 @@
                 </li>
             </ul>
             <h3 class="sidebar-heading"><a href="/Pages/grid.html">Layout</a></h3>
-        <ul>
-          <li>
-            <a class="sidebar-item" href="/Pages/grid.html">Grid </a>
-          </li>
-        </ul>
+            <ul>
+                <li>
+                    <a class="sidebar-item" href="/Pages/grid.html">Grid </a>
+                </li>
+            </ul>
             <h3 class="sidebar-heading"><a href="/Pages/alert.html">Components</a></h3>
             <ul>
                 <li>
@@ -110,6 +110,7 @@
                     <a class="sidebar-item" href="/Pages/badge.html">Badge</a>
                     <a class="sidebar-item" href="/Pages/button.html">Button</a>
                     <a class="sidebar-item" href="/Pages/card.html">Card</a>
+                    <a class="sidebar-item" href="/Pages/hamburger-navigation.html">Hamburger Nav</a>
                     <a class="sidebar-item list-item-active" href="/Pages/input.html">Input</a>
                     <a class="sidebar-item" href="/Pages/image.html">Image</a>
                     <a class="sidebar-item" href="/Pages/lists.html">Lists</a>
@@ -127,7 +128,8 @@
             <hr />
             <p>
                 The Input component is a component that is used to get user input in a text field. Different types of
-                inputs are available for example text, number, password, email etc. You can also use <code>disabled</code> attribute
+                inputs are available for example text, number, password, email etc. You can also use
+                <code>disabled</code> attribute
                 to disable the input.
             </p>
             <hr />
@@ -138,9 +140,9 @@
             <h3 class="my-2">For example</h3>
             <div class="example-box my-4">
                 <iframe title="code snippet"
-                src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522This%2520is%2520the%2520example%2520for%2520input%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-error%2520input%2522%2520placeholder%253D%2522This%2520is%2520the%2520example%2520for%2520input%2520error%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-success%2520input%2522%2520placeholder%253D%2522This%2520is%2520the%2520example%2520for%2520input%2520success%2522%253E"
-                style="width: 1024px; height: auto; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
+                    src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522This%2520is%2520the%2520example%2520for%2520input%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-error%2520input%2522%2520placeholder%253D%2522This%2520is%2520the%2520example%2520for%2520input%2520error%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-success%2520input%2522%2520placeholder%253D%2522This%2520is%2520the%2520example%2520for%2520input%2520success%2522%253E"
+                    style="width: 1024px; height: auto; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
             <h3 class="my-2">Result</h3>
@@ -154,23 +156,24 @@
             <hr />
             <h3 class="my-2">Available variations</h3>
             <p>
-                <ol class="ml-2">
-                    <li><strong>Regular input</strong>- For regular inputs with no special style.</li>
-                    <li><strong>Error input</strong>- For error inputs with error style.</li>
-                    <li><strong>Success input</strong>- For success inputs with success style.</li>
-                </ol>
+            <ol class="ml-2">
+                <li><strong>Regular input</strong>- For regular inputs with no special style.</li>
+                <li><strong>Error input</strong>- For error inputs with error style.</li>
+                <li><strong>Success input</strong>- For success inputs with success style.</li>
+            </ol>
             </p>
             <hr />
             <h3 class="my-2">Textarea Input</h3>
-            <p>Example for textarea input, it is flexible and responsive by nature. To use add <code>input</code> in <code>textarea</code>tag.</p>
+            <p>Example for textarea input, it is flexible and responsive by nature. To use add <code>input</code> in
+                <code>textarea</code>tag.</p>
             <div class="example-box flex-col my-4">
                 <textarea name="This is text area input" class="input" placeholder="Textarea"></textarea>
             </div>
             <div class="example-box my-4">
                 <iframe title="code snippet"
-                src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ctextarea%2520name%253D%2522This%2520is%2520text%2520area%2520input%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Textarea%2522%253E%253C%252Ftextarea%253E%250A"
-                style="width: 790px; height: 101px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
+                    src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=sharp&l=htmlmixed&width=527.5&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ctextarea%2520name%253D%2522This%2520is%2520text%2520area%2520input%2522%2520class%253D%2522input%2522%2520placeholder%253D%2522Textarea%2522%253E%253C%252Ftextarea%253E%250A"
+                    style="width: 790px; height: 101px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
             <hr>
